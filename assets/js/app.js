@@ -178,12 +178,65 @@ const Track = {
 
 /* ------------------------------------------------------------------- catalogue */
 
+/* ------------------------------------------------------------------
+   Category grouping
+   The catalogue sheet stores one flat product tag per SKU (Backpacks,
+   Polos, Pens, ...). The storefront nav wants four merchandising
+   headings with those tags hanging off them as subcategories. Rather
+   than reshaping the sheet — which the Apps Script publish step would
+   overwrite on the next republish — the grouping is applied client-side
+   right after the catalogue loads: each product's `category` is
+   rewritten to its group and `subcategory` keeps the original tag, so
+   category.html, the filter bar and the nav all keep working unchanged.
+   A tag that is not listed here falls through to Utilities.
+   ------------------------------------------------------------------ */
+const CATEGORY_GROUPS = [
+  ['Apparel',   ['T-Shirts', 'Polos', 'Formal Shirts', 'Jackets & Hoodies', 'Outerwear', 'Headwear']],
+  ['Drinkware', ['Drinkware']],
+  ['Travel',    ['Backpacks', 'Duffles', 'Totes & Slings', 'Travel Extreme', 'Kit Busters', 'Packaging & Others']],
+  ['Utilities', ['Office Essentials', 'Notebooks', 'Pens', 'Gadget & Tech', 'Home Essentials', 'Food & Ediblles']],
+];
+const CATEGORY_FALLBACK_GROUP = 'Utilities';
+
+/* Tag -> group heading. Built once from CATEGORY_GROUPS. */
+const TAG_GROUP = (() => {
+  const m = {};
+  for (const [group, tags] of CATEGORY_GROUPS) for (const t of tags) m[t] = group;
+  return m;
+})();
+
+/* Rewrites the loaded catalogue in place: products get their group as
+   `category` and their original tag as `subcategory`; `categories` is
+   rebuilt as the four groups, each listing only the tags that actually
+   have products behind them (so the dropdowns never show a dead link). */
+function regroupCatalogue(data) {
+  const seen = {};
+  for (const p of data.products || []) {
+    const tag = p.subcategory || p.category;
+    const group = TAG_GROUP[tag] || CATEGORY_FALLBACK_GROUP;
+    p.subcategory = tag;
+    p.category = group;
+    (seen[group] || (seen[group] = new Set())).add(tag);
+  }
+  data.categories = CATEGORY_GROUPS
+    .filter(([group]) => seen[group] && seen[group].size)
+    .map(([group, tags]) => ({
+      slug: group,
+      label: group,
+      /* keep the hand-written tag order, then append any stray tags that
+         landed here via the fallback */
+      subcategories: tags.filter(t => seen[group].has(t))
+        .concat([...seen[group]].filter(t => !tags.includes(t)).sort()),
+    }));
+  return data;
+}
+
 const Catalog = {
   _data: null,
   async load() {
     if (this._data) return this._data;
     const [res] = await Promise.all([fetch('assets/products.json'), Site.load()]);
-    this._data = await res.json();
+    this._data = regroupCatalogue(await res.json());
     this._bySku = Object.fromEntries(this._data.products.map(p => [p.sku, p]));
     return this._data;
   },
@@ -580,7 +633,7 @@ function header(active) {
      pages that mount before the catalogue is loaded. */
   const cats = Catalog.categories.length
     ? Catalog.categories.map(c => c.slug)
-    : ['Apparel', 'Drinkware', 'Travel', 'Utilities'];
+    : CATEGORY_GROUPS.map(([g]) => g);
 
   return el('header', { class: 'site-head' },
     el('div', { class: 'util' },
@@ -597,8 +650,8 @@ function header(active) {
         onclick: () => openMenu(active), html: ICONS.burger,
       }),
       el('a', { class: 'brand', href: 'index.html' },
-        el('img', { class: 'brand-logo', alt: 'CompanyStore',
-          src: Site.get('logo_url', 'assets/brand/logo.svg') })),
+        el('img', { class: 'brand-logo', alt: 'SecondHQ',
+          src: Site.get('logo_url', 'assets/brand/logo.png') })),
       el('form', { class: 'search', action: 'all.html', method: 'get' },
         el('input', { type: 'search', name: 'q', 'aria-label': 'Search products',
           placeholder: 'Search entire store here...' }),
@@ -614,10 +667,10 @@ function header(active) {
         cats.map(c => catnavItem(c, active)),
         el('a', { class: 'catnav-top' + (active === 'All' ? ' on' : ''), href: 'all.html' },
           'All products'),
-        flyoutNavItem('Event Kits', 'event-kits.html', EVENT_KIT_NAV, active === 'EventKits'),
-        flyoutNavItem('CXO / Executive Gifting', 'event-kits.html?event=cxo-gifting', GIFTING_NAV, active === 'Gifting'),
         el('a', { class: 'catnav-top nav-kit' + (active === 'Kit' ? ' on' : ''), href: 'kit.html' },
-          'Kit builder'))));
+          'Build a kit'),
+        flyoutNavItem('Event Kits', 'event-kits.html', EVENT_KIT_NAV, active === 'EventKits'),
+        flyoutNavItem('CXO / Executive Gifting', 'event-kits.html?event=cxo-gifting', GIFTING_NAV, active === 'Gifting'))));
 }
 
 /* The six curated occasions (New Joinee Program, Employee Recognition &
@@ -674,7 +727,7 @@ function openMenu(active) {
   const u = Auth.user();
   const cats = Catalog.categories.length
     ? Catalog.categories
-    : ['Apparel', 'Drinkware', 'Travel', 'Utilities'].map(c => ({ slug: c, label: c, subcategories: [] }));
+    : CATEGORY_GROUPS.map(([g]) => ({ slug: g, label: g, subcategories: [] }));
 
   const panel = el('nav', { class: 'menu-panel', 'aria-label': 'Site menu' },
     el('div', { class: 'menu-head' },
@@ -696,6 +749,9 @@ function openMenu(active) {
         el('a', { class: 'menu-cat', href: 'all.html' }, 'All products')),
 
       el('div', { class: 'menu-group' },
+        el('a', { class: 'menu-cat', href: 'kit.html' }, 'Build a kit')),
+
+      el('div', { class: 'menu-group' },
         el('a', { class: 'menu-cat', href: 'event-kits.html' }, 'Event Kits'),
         EVENT_KIT_NAV.map(([slug, label]) => el('a', {
           class: 'menu-sub', href: 'event-kits.html?event=' + encodeURIComponent(slug),
@@ -708,7 +764,6 @@ function openMenu(active) {
         }, label))),
 
       el('div', { class: 'menu-group' },
-        el('a', { class: 'menu-cat', href: 'kit.html' }, 'Kit builder'),
         el('a', { class: 'menu-cat', href: 'status.html' }, 'Track an order')),
 
       el('div', { class: 'menu-group' },

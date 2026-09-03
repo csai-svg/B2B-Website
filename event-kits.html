@@ -39,6 +39,29 @@
   .kit-tile-body .small { color: var(--muted); }
   .kit-section-head { display: flex; align-items: baseline; justify-content: space-between; margin: 36px 0 4px; }
   .kit-section-head .small { color: var(--muted); }
+  .kit-gallery {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 12px; margin: 8px 0 34px;
+  }
+  .kit-gallery img {
+    width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block;
+    border-radius: 10px; border: 1px solid var(--line); background: var(--ink-soft);
+    cursor: zoom-in; transition: .15s;
+  }
+  .kit-gallery img:hover { border-color: var(--brand); transform: translateY(-2px); }
+
+  /* Lightbox: a plain fixed overlay, no library. */
+  .kit-lb {
+    position: fixed; inset: 0; z-index: 90; background: rgba(9, 12, 24, .88);
+    display: flex; align-items: center; justify-content: center; padding: 32px;
+  }
+  .kit-lb img { max-width: min(1100px, 92vw); max-height: 88vh; border-radius: 12px; }
+  .kit-lb .x {
+    position: absolute; top: 18px; right: 22px; background: none; border: 0;
+    color: #fff; font-size: 2rem; line-height: 1; cursor: pointer; opacity: .8;
+  }
+  .kit-lb .x:hover { opacity: 1; }
+
   .empty-note {
     border: 1px dashed var(--line); border-radius: var(--radius); padding: 28px;
     text-align: center; color: var(--muted); margin: 20px 0 40px;
@@ -50,8 +73,19 @@
 
 <script src="assets/js/app.js"></script>
 <script>
+/* Kit imagery lives in assets/kits/kits.json rather than the Sheet, so the
+   pictures survive a catalogue republish and can be re-pointed without an
+   Apps Script deploy. A hero_image set on the EventKits tab still wins. */
+let KIT_MEDIA = {};
+
 (async function () {
-  await Catalog.load();
+  const [] = await Promise.all([
+    Catalog.load(),
+    fetch('assets/kits/kits.json')
+      .then(r => r.ok ? r.json() : { kits: {} })
+      .then(j => { KIT_MEDIA = j.kits || {}; })
+      .catch(() => {}),
+  ]);
   const params = new URLSearchParams(location.search);
   const slug = params.get('event');
   const page = document.getElementById('page');
@@ -68,8 +102,13 @@
 })();
 
 function kitOr(slug, labelFallback) {
-  const k = Catalog.eventKit(slug);
-  return k || { slug, label: labelFallback, tagline: '', hero_image: '', product_skus: [], product_count: 0 };
+  const k = Catalog.eventKit(slug)
+    || { slug, label: labelFallback, tagline: '', hero_image: '', product_skus: [], product_count: 0 };
+  const media = KIT_MEDIA[slug] || {};
+  return Object.assign({}, k, {
+    hero_image: k.hero_image || media.hero || '',
+    gallery: media.gallery || [],
+  });
 }
 
 function renderHub(page) {
@@ -120,6 +159,18 @@ function renderDetail(page, slug) {
         el('h1', {}, k.label),
         el('p', {}, k.tagline || 'Curated products for this occasion.'))));
 
+  if (k.gallery.length > 1) {
+    page.append(
+      el('div', { class: 'kit-section-head' },
+        el('h2', {}, 'In this kit'),
+        el('span', { class: 'small' }, k.gallery.length + ' photos')),
+      el('div', { class: 'kit-gallery' }, k.gallery.map((g, i) =>
+        el('img', {
+          src: g.thumb || g.src, alt: k.label + ' — photo ' + (i + 1), loading: 'lazy',
+          onclick: () => lightbox(g.src, k.label),
+        }))));
+  }
+
   if (!products.length) {
     page.append(el('div', { class: 'empty-note' },
       el('div', { style: 'font-weight:700;margin-bottom:4px' }, 'This kit is still being put together'),
@@ -134,6 +185,16 @@ function renderDetail(page, slug) {
       el('div', { class: 'small muted' }, products.length + ' product' + (products.length === 1 ? '' : 's') + ' in this kit'),
       el('a', { class: 'link-quiet', href: 'kit.html' }, 'Build a custom kit instead →')),
     el('div', { class: 'grid grid-5' }, products.map(productCard)));
+}
+
+function lightbox(src, alt) {
+  const close = () => { box.remove(); document.removeEventListener('keydown', onKey); };
+  const onKey = e => { if (e.key === 'Escape') close(); };
+  const box = el('div', { class: 'kit-lb', onclick: e => { if (e.target === box) close(); } },
+    el('button', { class: 'x', type: 'button', 'aria-label': 'Close', onclick: close }, '\u00d7'),
+    el('img', { src, alt }));
+  document.body.append(box);
+  document.addEventListener('keydown', onKey);
 }
 </script>
 </body>

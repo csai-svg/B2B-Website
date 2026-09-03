@@ -109,8 +109,8 @@ function paintHero() {
 
   host.className = 'hero';
   host.append(el('div', { class: 'wrap' },
-    el('img', { class: 'hero-logo', alt: 'CompanyStore',
-      src: Site.get('logo_white_url', 'assets/brand/logo-white.svg') }),
+    el('img', { class: 'hero-logo', alt: 'SecondHQ',
+      src: Site.get('logo_white_url', 'assets/brand/logo-white.png') }),
     el('h1', {}, (b && b.title) || Site.get('hero_title', 'CompanyStore branded merchandise')),
     el('p', {}, (b && b.subtitle) || Site.get('hero_subtitle',
       'Browse the approved catalogue. Sign in at checkout to raise an order for approval.')),

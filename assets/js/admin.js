@@ -781,8 +781,8 @@ function importUsers() {
 function paintAppearance(host) {
   const s = Object.assign({}, CAT.settings);
   const rows = [
-    ['logo_url', 'Header logo URL', 'Cerulean mark, shown on light backgrounds'],
-    ['logo_white_url', 'Hero logo URL', 'White mark, shown on the dark hero'],
+    ['logo_url', 'Header logo URL', 'SecondHQ mark, shown on light backgrounds'],
+    ['logo_white_url', 'Hero logo URL', 'White knockout mark, shown on the dark hero'],
     ['hero_title', 'Hero title', ''],
     ['hero_subtitle', 'Hero subtitle', ''],
     ['footer_note', 'Footer note', ''],

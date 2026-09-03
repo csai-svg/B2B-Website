@@ -117,8 +117,8 @@ const ADMIN_STATE = {
       link_url: 'category.html?cat=Apparel', sort_order: 0, active: true },
   ],
   settings: {
-    logo_url: 'assets/brand/logo.svg',
-    logo_white_url: 'assets/brand/logo-white.svg',
+    logo_url: 'assets/brand/logo.png',
+    logo_white_url: 'assets/brand/logo-white.png',
     hero_title: 'CompanyStore branded merchandise',
     hero_subtitle: 'Browse the approved catalogue.',
     footer_note: 'CompanyStore B2B Store, operated by CompanyStore.IO',
