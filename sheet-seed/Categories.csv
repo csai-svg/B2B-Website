@@ -1,0 +1,20 @@
+slug,parent_slug,label,sort_order,active
+Backpacks,Backpacks,Backpacks,0,TRUE
+Drinkware,Drinkware,Drinkware,1,TRUE
+Duffles,Duffles,Duffles,2,TRUE
+Food & Ediblles,Food & Ediblles,Food & Ediblles,3,TRUE
+Formal Shirts,Formal Shirts,Formal Shirts,4,TRUE
+Gadget & Tech,Gadget & Tech,Gadget & Tech,5,TRUE
+Headwear,Headwear,Headwear,6,TRUE
+Home Essentials,Home Essentials,Home Essentials,7,TRUE
+Jackets & Hoodies,Jackets & Hoodies,Jackets & Hoodies,8,TRUE
+Kit Busters,Kit Busters,Kit Busters,9,TRUE
+Notebooks,Notebooks,Notebooks,10,TRUE
+Office Essentials,Office Essentials,Office Essentials,11,TRUE
+Outerwear,Outerwear,Outerwear,12,TRUE
+Packaging & Others,Packaging & Others,Packaging & Others,13,TRUE
+Pens,Pens,Pens,14,TRUE
+Polos,Polos,Polos,15,TRUE
+T-Shirts,T-Shirts,T-Shirts,16,TRUE
+Totes & Slings,Totes & Slings,Totes & Slings,17,TRUE
+Travel Extreme,Travel Extreme,Travel Extreme,18,TRUE

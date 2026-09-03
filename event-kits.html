@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Event Kits | CompanyStore B2B Store</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+<style>
+  /* Event Kits is its own small layout on top of app.css, not a new design
+     system: it reuses .card / .grid / var(--brand) etc. throughout. */
+  .kit-hero {
+    background: var(--ink); color: #fff; border-radius: var(--radius);
+    padding: 40px 36px; margin: 28px 0; display: flex; align-items: center;
+    gap: 28px; overflow: hidden; position: relative;
+  }
+  .kit-hero-img { width: 220px; height: 150px; border-radius: 10px; object-fit: cover; flex: none; background: var(--ink-soft); }
+  .kit-hero h1 { color: #fff; margin-bottom: 6px; }
+  .kit-hero p { color: var(--grey); margin: 0; max-width: 520px; }
+  .kit-hero .back { display: inline-block; margin-bottom: 14px; font-size: .82rem; color: var(--grey); font-weight: 600; }
+  .kit-hero .back:hover { color: #fff; }
+
+  .kit-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 24px 0 40px; }
+  .kit-tile {
+    border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+    background: #fff; display: flex; flex-direction: column; transition: .15s;
+  }
+  .kit-tile:hover { border-color: var(--brand); box-shadow: var(--shadow); }
+  .kit-tile-img {
+    aspect-ratio: 16/9; background: linear-gradient(135deg, var(--ink), var(--ink-soft));
+    display: flex; align-items: center; justify-content: center; overflow: hidden;
+  }
+  .kit-tile-img img { width: 100%; height: 100%; object-fit: cover; }
+  .kit-tile-img .ph { color: var(--brand); opacity: .6; font-family: Sora, sans-serif; font-weight: 800; font-size: 1.6rem; letter-spacing: -.02em; }
+  .kit-tile-body { padding: 16px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+  .kit-tile-body .small { color: var(--muted); }
+  .kit-section-head { display: flex; align-items: baseline; justify-content: space-between; margin: 36px 0 4px; }
+  .kit-section-head .small { color: var(--muted); }
+  .empty-note {
+    border: 1px dashed var(--line); border-radius: var(--radius); padding: 28px;
+    text-align: center; color: var(--muted); margin: 20px 0 40px;
+  }
+</style>
+</head>
+<body>
+<main class="wrap" id="page"></main>
+
+<script src="assets/js/app.js"></script>
+<script>
+(async function () {
+  await Catalog.load();
+  const params = new URLSearchParams(location.search);
+  const slug = params.get('event');
+  const page = document.getElementById('page');
+
+  const GIFTING_SLUGS = new Set(GIFTING_NAV.map(([s]) => s));
+
+  if (slug) {
+    mount(GIFTING_SLUGS.has(slug) ? 'Gifting' : 'EventKits');
+    renderDetail(page, slug);
+  } else {
+    mount('EventKits');
+    renderHub(page);
+  }
+})();
+
+function kitOr(slug, labelFallback) {
+  const k = Catalog.eventKit(slug);
+  return k || { slug, label: labelFallback, tagline: '', hero_image: '', product_skus: [], product_count: 0 };
+}
+
+function renderHub(page) {
+  page.append(
+    el('div', { class: 'page-head' },
+      el('h1', {}, 'Event Kits'),
+      el('div', { class: 'muted small' },
+        'Pre-curated product sets for a specific occasion. Pick one to see what’s in it, ' +
+        'or use the ', el('a', { href: 'kit.html', style: 'color:var(--brand);font-weight:700' }, 'kit builder'),
+        ' to assemble your own by headcount and budget.')));
+
+  page.append(
+    el('div', { class: 'kit-section-head' },
+      el('h2', {}, 'By occasion'),
+      el('span', { class: 'small' }, EVENT_KIT_NAV.length + ' kits')),
+    el('div', { class: 'kit-grid' }, EVENT_KIT_NAV.map(([s, l]) => kitTile(kitOr(s, l)))));
+
+  page.append(
+    el('div', { class: 'kit-section-head' },
+      el('h2', {}, 'CXO / Executive Gifting'),
+      el('span', { class: 'small' }, GIFTING_NAV.length + ' kits')),
+    el('div', { class: 'kit-grid' }, GIFTING_NAV.map(([s, l]) => kitTile(kitOr(s, l)))));
+}
+
+function kitTile(k) {
+  return el('a', { class: 'kit-tile', href: 'event-kits.html?event=' + encodeURIComponent(k.slug) },
+    el('div', { class: 'kit-tile-img' },
+      k.hero_image
+        ? el('img', { src: k.hero_image, alt: k.label, loading: 'lazy' })
+        : el('span', { class: 'ph' }, k.label)),
+    el('div', { class: 'kit-tile-body' },
+      el('div', { class: 'card-name' }, k.label),
+      k.tagline ? el('div', { class: 'small muted' }, k.tagline) : null,
+      el('div', { class: 'small' }, k.product_count + ' product' + (k.product_count === 1 ? '' : 's'))));
+}
+
+function renderDetail(page, slug) {
+  const nav = EVENT_KIT_NAV.concat(GIFTING_NAV);
+  const fallbackLabel = (nav.find(([s]) => s === slug) || [slug, slug])[1];
+  const k = kitOr(slug, fallbackLabel);
+  const products = k.product_skus.map(sku => Catalog.bySku(sku)).filter(Boolean);
+
+  page.append(
+    el('a', { class: 'back', href: 'event-kits.html' }, '← All event kits'),
+    el('div', { class: 'kit-hero' },
+      k.hero_image ? el('img', { class: 'kit-hero-img', src: k.hero_image, alt: k.label }) : null,
+      el('div', {},
+        el('h1', {}, k.label),
+        el('p', {}, k.tagline || 'Curated products for this occasion.'))));
+
+  if (!products.length) {
+    page.append(el('div', { class: 'empty-note' },
+      el('div', { style: 'font-weight:700;margin-bottom:4px' }, 'This kit is still being put together'),
+      el('div', { class: 'small' },
+        'No products are assigned to “' + k.label + '” yet. Add SKUs to the EventKits sheet ' +
+        'tab (or the admin console) and republish to fill this in.')));
+    return;
+  }
+
+  page.append(
+    el('div', { class: 'row-between', style: 'margin:20px 0 14px' },
+      el('div', { class: 'small muted' }, products.length + ' product' + (products.length === 1 ? '' : 's') + ' in this kit'),
+      el('a', { class: 'link-quiet', href: 'kit.html' }, 'Build a custom kit instead →')),
+    el('div', { class: 'grid grid-5' }, products.map(productCard)));
+}
+</script>
+</body>
+</html>
