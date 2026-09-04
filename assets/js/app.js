@@ -231,16 +231,75 @@ function regroupCatalogue(data) {
   return data;
 }
 
+/* ------------------------------------------------------------------
+   Colourways
+   Some styles ship as one SKU per colour, exported with identical
+   product names — so the storefront showed the same lanyard three
+   times. assets/colorways.json groups those SKUs; listings then show
+   only the group's `primary`, and the product page offers swatches
+   that switch between members. Every colour keeps its own SKU, price,
+   MOQ and stock, so nothing about ordering changes. A member marked
+   needs_image is held out of listings and gets no swatch until real
+   photography lands.
+   ------------------------------------------------------------------ */
+function applyColorways(data, groups) {
+  const primary = new Set();
+  const hidden = new Set();
+
+  for (const g of groups || []) {
+    const members = (g.members || []).filter(m => Catalogish(data, m.sku));
+    if (members.length < 2) continue;
+    const head = members.find(m => m.sku === g.primary) || members[0];
+    primary.add(head.sku);
+
+    /* swatch-worthy members only: one still awaiting photography has no
+       colour to show, so it is reachable by URL but not advertised */
+    const shown = members.filter(m => m.color && !m.needs_image);
+    for (const m of members) {
+      const p = Catalogish(data, m.sku);
+      const label = g.label || p.name;
+      p.colorway = {
+        group: g.id,
+        label: label,
+        color: m.color || '',
+        needs_image: !!m.needs_image,
+        siblings: shown.map(x => ({ sku: x.sku, color: x.color, swatch: x.swatch })),
+      };
+      /* The export gave every colour the same name — all three lanyards read
+         "- Black". Rebuild the name from the group label plus this member's
+         actual colour so the yellow one does not claim to be black. (This is
+         also where the group label quietly fixes the "Hooodie" typo.) */
+      p.name = m.color ? label + ' - ' + m.color : label;
+      if (m.sku !== head.sku) hidden.add(m.sku);
+    }
+  }
+  return data.products.filter(p => !hidden.has(p.sku));
+}
+
+function Catalogish(data, sku) {
+  return data.products.find(p => p.sku === sku);
+}
+
 const Catalog = {
   _data: null,
   async load() {
     if (this._data) return this._data;
-    const [res] = await Promise.all([fetch('assets/products.json'), Site.load()]);
+    const [res, cw] = await Promise.all([
+      fetch('assets/products.json'),
+      fetch('assets/colorways.json').then(r => r.ok ? r.json() : { groups: [] }).catch(() => ({ groups: [] })),
+      Site.load(),
+    ]);
     this._data = regroupCatalogue(await res.json());
+    /* bySku indexes EVERY product, including colours hidden from listings,
+       so a direct product.html?sku=... link always resolves */
     this._bySku = Object.fromEntries(this._data.products.map(p => [p.sku, p]));
+    this._listing = applyColorways(this._data, cw.groups);
     return this._data;
   },
-  get products() { return this._data ? this._data.products : []; },
+  /* what listings show: one card per colourway */
+  get products() { return this._listing || (this._data ? this._data.products : []); },
+  /* every SKU, siblings included */
+  get allProducts() { return this._data ? this._data.products : []; },
   get categories() { return this._data ? this._data.categories : []; },
   get eventKits() { return this._data ? (this._data.event_kits || []) : []; },
   bySku(sku) { return this._bySku[sku]; },
@@ -835,8 +894,11 @@ function productCard(p) {
     el('div', { class: 'card-img' }, el('img', { src: p.image, alt: p.name, loading: 'lazy' })),
     el('div', { class: 'card-body' },
       el('div', { class: 'card-sku' }, p.sku),
-      el('div', { class: 'card-name' }, p.name),
+      el('div', { class: 'card-name' },
+        (p.colorway && p.colorway.siblings.length > 1) ? p.colorway.label : p.name),
       p.has_sizes ? el('div', { class: 'tag' }, p.sizes.length + ' sizes') : null,
+      (p.colorway && p.colorway.siblings.length > 1)
+        ? el('div', { class: 'tag' }, p.colorway.siblings.length + ' colours') : null,
       el('div', { class: 'card-moq' }, 'MOQ ' + qty(p.moq)),
       el('div', { class: 'card-price' },
         el('span', { class: 'from' }, 'from'),

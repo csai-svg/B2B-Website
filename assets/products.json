@@ -218,11 +218,7 @@
    "tagline": "Eco-friendly and reusable branded merchandise",
    "hero_image": "",
    "product_skus": [
-    "760038A2X",
-    "760038ALG",
-    "760038AMD",
-    "760038ASM",
-    "760038AXL",
+    "760038A",
     "ADAL-048",
     "CSUN-0064",
     "CSUN-0123",
@@ -239,7 +235,7 @@
     "UG 02",
     "URBAN-322"
    ],
-   "product_count": 20
+   "product_count": 16
   },
   {
    "slug": "festive-gift-kits",
@@ -349,7 +345,7 @@
    "category": "Backpacks",
    "subcategory": "Backpacks",
    "brand": "Mokobara",
-   "description": "Brand: Mokobara\n\n- Incredible functionality with a sleek minimalist design.\n- Crafted with durable, water-resistant materials and premium zippers.\n- Front compartment houses pen pockets, slip pockets and a zipper pocket.\n- Dedicated tech compartment will hold your laptop, books and chargers securely.\n- Padded laptop compartment that fits up to a 15 inch laptop with a strap lock & a 180 \u00b0 flat opening for easy access.\n- Has two hidden water bottle/umbrella compartments. \n- Has a silicon grab handle & ergonomic shoulder straps designed for extra comfort. Straps feature easy length adjustment buckles.\n- Luggage sleeve secures to any Mokobara suitcase for a smooth ride.\n- Splendidly sized: 42 x 26 x 15.5 cms.",
+   "description": "Brand: Mokobara\n\n- Incredible functionality with a sleek minimalist design.\n- Crafted with durable, water-resistant materials and premium zippers.\n- Front compartment houses pen pockets, slip pockets and a zipper pocket.\n- Dedicated tech compartment will hold your laptop, books and chargers securely.\n- Padded laptop compartment that fits up to a 15 inch laptop with a strap lock & a 180 ° flat opening for easy access.\n- Has two hidden water bottle/umbrella compartments. \n- Has a silicon grab handle & ergonomic shoulder straps designed for extra comfort. Straps feature easy length adjustment buckles.\n- Luggage sleeve secures to any Mokobara suitcase for a smooth ride.\n- Splendidly sized: 42 x 26 x 15.5 cms.",
    "specs": [],
    "moq": 25,
    "list_price": 8999,
@@ -471,7 +467,7 @@
    "category": "Backpacks",
    "subcategory": "Backpacks",
    "brand": "travelXOXO",
-   "description": "Brand: travelXOXO\n\n\n- Crafted from 100% lightweight diamond ripstop polyester for exceptional durability and tear resistance.\n- Features a dedicated padded laptop compartment that fits laptops up to 13 inches.\n- Spacious main compartment offers ample room for documents, accessories, and everyday essentials.\n- Includes a front vertical zippered pocket with internal slip and zippered mesh pockets for organized storage.\n- Equipped with Hyplon buckle attachments and front webbing loops for added utility and gear attachment.\n- Side compression straps help stabilize the load and maintain a compact profile.\n- Padded shoulder straps and a comfortable carry handle ensure ease of carrying throughout the day.\n- Lightweight yet rugged construction makes it ideal for daily commuting, business travel, office use, and outdoor activities.\n- Product dimensions: 32 \u00d7 48 \u00d7 22 cm.\n- Available in Black.\n- Suitable for corporate branding, promotional gifting, and custom logo personalization.",
+   "description": "Brand: travelXOXO\n\n\n- Crafted from 100% lightweight diamond ripstop polyester for exceptional durability and tear resistance.\n- Features a dedicated padded laptop compartment that fits laptops up to 13 inches.\n- Spacious main compartment offers ample room for documents, accessories, and everyday essentials.\n- Includes a front vertical zippered pocket with internal slip and zippered mesh pockets for organized storage.\n- Equipped with Hyplon buckle attachments and front webbing loops for added utility and gear attachment.\n- Side compression straps help stabilize the load and maintain a compact profile.\n- Padded shoulder straps and a comfortable carry handle ensure ease of carrying throughout the day.\n- Lightweight yet rugged construction makes it ideal for daily commuting, business travel, office use, and outdoor activities.\n- Product dimensions: 32 × 48 × 22 cm.\n- Available in Black.\n- Suitable for corporate branding, promotional gifting, and custom logo personalization.",
    "specs": [],
    "moq": 25,
    "list_price": 2800,
@@ -501,7 +497,7 @@
    "category": "Backpacks",
    "subcategory": "Backpacks",
    "brand": "travelXOXO",
-   "description": "Brand: travelXOXO\n\n- Spacious padded laptop compartment provides secure storage for your laptop and daily essentials.\n- Features a 180\u00b0 flat-opening design for easy packing, organization, and quick access.\n- Front flap with secure strap lock offers added protection for stored belongings.\n- Durable construction with premium zippers ensures long-lasting performance.\n- Ergonomic shoulder straps with adjustable buckles provide a comfortable carrying experience.\n- Silicone top grab handle allows for convenient hand carrying.\n- Streamlined, minimalist design suitable for work, travel, and everyday commuting.\n- Spacious interior accommodates documents, accessories, and other essentials with ease.\n- Crafted for both professional and travel use, combining functionality with modern style.\n- Dimensions: 42 (H) \u00d7 26 (W) \u00d7 15.5 (D) cm.",
+   "description": "Brand: travelXOXO\n\n- Spacious padded laptop compartment provides secure storage for your laptop and daily essentials.\n- Features a 180° flat-opening design for easy packing, organization, and quick access.\n- Front flap with secure strap lock offers added protection for stored belongings.\n- Durable construction with premium zippers ensures long-lasting performance.\n- Ergonomic shoulder straps with adjustable buckles provide a comfortable carrying experience.\n- Silicone top grab handle allows for convenient hand carrying.\n- Streamlined, minimalist design suitable for work, travel, and everyday commuting.\n- Spacious interior accommodates documents, accessories, and other essentials with ease.\n- Crafted for both professional and travel use, combining functionality with modern style.\n- Dimensions: 42 (H) × 26 (W) × 15.5 (D) cm.",
    "specs": [],
    "moq": 25,
    "list_price": 5600,
@@ -934,7 +930,7 @@
    "category": "Duffles",
    "subcategory": "Duffles",
    "brand": "Okami",
-   "description": "Brand: OKAMI\n\n\n- Sleek and versatile duffle bag designed for work, travel, and short getaways.\n- Ideal as an overnighter, weekender, or cabin bag with a stylish and compact form.\n- Features ample storage with auto compression to efficiently pack essentials.\n- Designed for professionals on the go, ensuring easy mobility and convenience.\n- Equipped with a 180\u00b0 opening and dual-compartment design for effortless packing and access.\n- Separate compartment helps keep shoes and toiletries apart from clothes and essentials.\n- Includes twin quick-access mesh pockets for storing daily necessities.\n- Features a rear hidden pocket to securely store valuables like wallet, cash, cards, and passport.\n- Comes with a key hook (dog hook) to keep keys secure and easily accessible.\n- Includes a trolley pass-through strap for convenient travel with luggage.\n- Made with premium water-resistant fabric and durable zippers for long-lasting use.",
+   "description": "Brand: OKAMI\n\n\n- Sleek and versatile duffle bag designed for work, travel, and short getaways.\n- Ideal as an overnighter, weekender, or cabin bag with a stylish and compact form.\n- Features ample storage with auto compression to efficiently pack essentials.\n- Designed for professionals on the go, ensuring easy mobility and convenience.\n- Equipped with a 180° opening and dual-compartment design for effortless packing and access.\n- Separate compartment helps keep shoes and toiletries apart from clothes and essentials.\n- Includes twin quick-access mesh pockets for storing daily necessities.\n- Features a rear hidden pocket to securely store valuables like wallet, cash, cards, and passport.\n- Comes with a key hook (dog hook) to keep keys secure and easily accessible.\n- Includes a trolley pass-through strap for convenient travel with luggage.\n- Made with premium water-resistant fabric and durable zippers for long-lasting use.",
    "specs": [],
    "moq": 100,
    "list_price": 6999,
@@ -1212,7 +1208,7 @@
    "category": "Gadget & Tech",
    "subcategory": "Gadget & Tech",
    "brand": "JBL",
-   "description": "Brand: JBL\n\n\n- Smart Tx Transmitter: Handheld dongle with touchscreen; plugs into 3.5mm or USB-C sources and beams audio wirelessly to headphones; acts as Auracast\u2122 hub for sharing audio with nearby JBL users.\n- Mastered Sound: 40mm Mica Dome drivers delivering Hi-Res Audio with built-in DAC for lossless USB-C playback.\n- Unrivaled Silence: True Adaptive Noise Cancelling 2.0 with 8-microphone system blocks wind, traffic, and office noise.\n- Immersive Experience: JBL Spatial 360 with Head Tracking for cinematic sound in movies and gaming.\n- Monster Battery: Up to 70 hours total (40 hours ANC on); 5-minute quick charge provides 5 hours of listening.\n- Smart Customization: Personi-Fi 3.0 calibrates sound to your hearing profile; Smart Talk pauses music automatically when you speak.",
+   "description": "Brand: JBL\n\n\n- Smart Tx Transmitter: Handheld dongle with touchscreen; plugs into 3.5mm or USB-C sources and beams audio wirelessly to headphones; acts as Auracast™ hub for sharing audio with nearby JBL users.\n- Mastered Sound: 40mm Mica Dome drivers delivering Hi-Res Audio with built-in DAC for lossless USB-C playback.\n- Unrivaled Silence: True Adaptive Noise Cancelling 2.0 with 8-microphone system blocks wind, traffic, and office noise.\n- Immersive Experience: JBL Spatial 360 with Head Tracking for cinematic sound in movies and gaming.\n- Monster Battery: Up to 70 hours total (40 hours ANC on); 5-minute quick charge provides 5 hours of listening.\n- Smart Customization: Personi-Fi 3.0 calibrates sound to your hearing profile; Smart Talk pauses music automatically when you speak.",
    "specs": [],
    "moq": 25,
    "list_price": 39999,
@@ -1460,7 +1456,7 @@
    "category": "Home Essentials",
    "subcategory": "Home Essentials",
    "brand": "Hridaya",
-   "description": "Brand: HRIDAYA \u2013 THE WAX STUDIO\n\n\n- Dimensions: 40W x 50H mm\n- Item Weight: 33 grams\n- Number of Items: 1\n- Shape: Round\n- Material: Glass\n- Scent: Soothing Lavender, Vanilla Bean, Rose Petals\n- Special Features: Scented, eco-friendly, made from sustainable soy wax, thoughtfully designed packaging, meticulously handcrafted",
+   "description": "Brand: HRIDAYA – THE WAX STUDIO\n\n\n- Dimensions: 40W x 50H mm\n- Item Weight: 33 grams\n- Number of Items: 1\n- Shape: Round\n- Material: Glass\n- Scent: Soothing Lavender, Vanilla Bean, Rose Petals\n- Special Features: Scented, eco-friendly, made from sustainable soy wax, thoughtfully designed packaging, meticulously handcrafted",
    "specs": [],
    "moq": 50,
    "list_price": 275,
@@ -1612,7 +1608,7 @@
    "category": "Home Essentials",
    "subcategory": "Home Essentials",
    "brand": "Phool",
-   "description": "Brand: Phool\n\n\n- Made from sacred temple flowers and pure essential oils.\n- Handcrafted by women flower cyclers.\n-  Each incense cone burns for 30\u201335 minutes.\n-  Provides a positive, rejuvenating experience.\n-  Contains 40 cones, a ceramic holder, and a seed card.\n-  Available in 18 unique fragrances.",
+   "description": "Brand: Phool\n\n\n- Made from sacred temple flowers and pure essential oils.\n- Handcrafted by women flower cyclers.\n-  Each incense cone burns for 30–35 minutes.\n-  Provides a positive, rejuvenating experience.\n-  Contains 40 cones, a ceramic holder, and a seed card.\n-  Available in 18 unique fragrances.",
    "specs": [],
    "moq": 50,
    "list_price": 145,
@@ -1642,7 +1638,7 @@
    "category": "Home Essentials",
    "subcategory": "Home Essentials",
    "brand": "SOIL",
-   "description": "Brand: SOIL\n\n\n- Crafted from durable MDF wood for long-lasting performance and everyday use.\n- Smooth top surface with high-quality vinyl print provides a vibrant and premium finish.\n- Protects tabletops and countertops from heat, moisture, scratches, and beverage stains.\n- Suitable for cups, mugs, glasses, bottles, and beverage cans of various sizes.\n- Non-slip construction helps keep drinks stable while protecting surfaces.\n- Lightweight and easy to clean, making it ideal for home, office, and hospitality use.\n- Reusable and eco-friendly design offers a sustainable alternative to disposable coasters.\n- Supplied as a convenient set of 4 for everyday use and entertaining guests.\n- Perfect for offices, caf\u00e9s, restaurants, conference rooms, and corporate gifting.\n- Ideal for custom branding with full-color digital printing, making it an excellent choice for promotional giveaways and branded merchandise.",
+   "description": "Brand: SOIL\n\n\n- Crafted from durable MDF wood for long-lasting performance and everyday use.\n- Smooth top surface with high-quality vinyl print provides a vibrant and premium finish.\n- Protects tabletops and countertops from heat, moisture, scratches, and beverage stains.\n- Suitable for cups, mugs, glasses, bottles, and beverage cans of various sizes.\n- Non-slip construction helps keep drinks stable while protecting surfaces.\n- Lightweight and easy to clean, making it ideal for home, office, and hospitality use.\n- Reusable and eco-friendly design offers a sustainable alternative to disposable coasters.\n- Supplied as a convenient set of 4 for everyday use and entertaining guests.\n- Perfect for offices, cafés, restaurants, conference rooms, and corporate gifting.\n- Ideal for custom branding with full-color digital printing, making it an excellent choice for promotional giveaways and branded merchandise.",
    "specs": [],
    "moq": 100,
    "list_price": 700,
@@ -1672,7 +1668,7 @@
    "category": "Home Essentials",
    "subcategory": "Home Essentials",
    "brand": "SOIL",
-   "description": "Brand: SOIL\n\n\n- Elegant wooden finish with a minimalist and modern design\n- Magnetic closure holds the photo securely\u2014no screws or nails needed\n- Perfect for showcasing your favorite memories in a stylish way\n- Size: 18.5 cm (W) x 12.5 cm (H) x 2 cm (D)",
+   "description": "Brand: SOIL\n\n\n- Elegant wooden finish with a minimalist and modern design\n- Magnetic closure holds the photo securely—no screws or nails needed\n- Perfect for showcasing your favorite memories in a stylish way\n- Size: 18.5 cm (W) x 12.5 cm (H) x 2 cm (D)",
    "specs": [],
    "moq": 25,
    "list_price": 475,
@@ -1767,7 +1763,7 @@
   },
   {
    "sku": "CSUN-3390",
-   "name": "ET-TU Primelayer zip up jacket Men\u2019s",
+   "name": "ET-TU Primelayer zip up jacket Men’s",
    "url_key": "et-tu-primelayer-zip-up-jacket-men-s-csun-3390",
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
@@ -1926,7 +1922,7 @@
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
    "brand": "Monte Carlo",
-   "description": "Brand: Monte Carlo\n\n- This clothing item is crafted from premium cotton\u2011blend fleece, combining street style with comfort for a cool, confident, and contemporary look.  \n- The design emphasizes adventurous and refreshing aesthetics, making it suitable for modern fashion choices.  \n- With a GSM of 320, the fabric offers a substantial weight that ensures durability while maintaining softness.  \n- Available in black, it comes in an inclusive size range from XS to 5XL, catering to diverse fits.  \n- Its thoughtful blend of resilience, style, and comfort makes it a versatile option for those seeking both fashion and practicality in everyday wear.",
+   "description": "Brand: Monte Carlo\n\n- This clothing item is crafted from premium cotton‑blend fleece, combining street style with comfort for a cool, confident, and contemporary look.  \n- The design emphasizes adventurous and refreshing aesthetics, making it suitable for modern fashion choices.  \n- With a GSM of 320, the fabric offers a substantial weight that ensures durability while maintaining softness.  \n- Available in black, it comes in an inclusive size range from XS to 5XL, catering to diverse fits.  \n- Its thoughtful blend of resilience, style, and comfort makes it a versatile option for those seeking both fashion and practicality in everyday wear.",
    "specs": [],
    "moq": 25,
    "list_price": 3999,
@@ -2055,44 +2051,13 @@
     }
    ],
    "sizes": [
-    "3XL",
-    "L",
-    "M",
-    "S",
-    "XL",
     "XS",
-    "XXL"
-   ],
-   "colors": [
-    "Black"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/qngpjs-rare-rabbit-bonded-fleece-jacket-bleck.jpg?versionId=JxeMQkNQQpOXB2Pq0QZQkvojxls2F3zJ",
-   "decoration_method": "Embroidery",
-   "lead_time_days": 21,
-   "event_tags": [],
-   "active": true
-  },
-  {
-   "sku": "RARE-071_4XL",
-   "name": "Rare Rabbit Unisex Bonded Fleece Jacket",
-   "url_key": "rare-rabbit-unisex-bonded-fleece-jacket-rare-071-4xl",
-   "category": "Jackets & Hoodies",
-   "subcategory": "Jackets & Hoodies",
-   "brand": "Rare Rabbit",
-   "description": "Brand: Rare Rabbit\n\n\n- Product: Bonded Fleece Jacket\n- Colour: Black\n- Type: Unisex\n- Material: Bonded Blend Poly\n- Sizes: XS, S, M, L, XL, XXL, 3XL, 4XL",
-   "specs": [],
-   "moq": 25,
-   "list_price": 3999,
-   "base_price": 3200,
-   "tiers": [
-    {
-     "min_qty": 25,
-     "max_qty": "",
-     "unit_price": 3200
-    }
-   ],
-   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "3XL",
     "4XL"
    ],
    "colors": [
@@ -2112,7 +2077,7 @@
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
    "brand": "Stormtech",
-   "description": "Brand: Stormtech\n\n- Shell made from 100% polyester pongee, 2.65 oz/yd\u00b2 (USA) / 90gsm (CDN)\n- Lining made from 100% polyester with a water-repellent finish\n- High-performance windproof outer shell for protection\n- Quilted body with ultra-soft lining for warmth\n- Internal full-length stormflap for added coverage\n- Elasticized cuffs and adjustable hem for a secure fit\n- Zippered pockets for convenient storage\n- Chin saver for added comfort and protection",
+   "description": "Brand: Stormtech\n\n- Shell made from 100% polyester pongee, 2.65 oz/yd² (USA) / 90gsm (CDN)\n- Lining made from 100% polyester with a water-repellent finish\n- High-performance windproof outer shell for protection\n- Quilted body with ultra-soft lining for warmth\n- Internal full-length stormflap for added coverage\n- Elasticized cuffs and adjustable hem for a secure fit\n- Zippered pockets for convenient storage\n- Chin saver for added comfort and protection",
    "specs": [],
    "moq": 500,
    "list_price": 10556,
@@ -2150,7 +2115,7 @@
    "category": "Kit Busters",
    "subcategory": "Kit Busters",
    "brand": "SOIL",
-   "description": "Brand: SOIL\n\n\n- Made from 300 GSM eco-sustainable Kraft paper\n- High-quality screen printing for a professional finish\n- Ideal for promotional marketing, customer retention, and client engagement\n- Perfect for congratulating new clients or keeping in touch with long-term customers\n- Fully customizable to suit your brand or business message\n- Available in any custom size as per requirement\n- Standard Size: Folded \u2013 4\" x 6\", Open \u2013 8\" x 6\" inches",
+   "description": "Brand: SOIL\n\n\n- Made from 300 GSM eco-sustainable Kraft paper\n- High-quality screen printing for a professional finish\n- Ideal for promotional marketing, customer retention, and client engagement\n- Perfect for congratulating new clients or keeping in touch with long-term customers\n- Fully customizable to suit your brand or business message\n- Available in any custom size as per requirement\n- Standard Size: Folded – 4\" x 6\", Open – 8\" x 6\" inches",
    "specs": [],
    "moq": 25,
    "list_price": 125,
@@ -2182,7 +2147,7 @@
    "category": "Kit Busters",
    "subcategory": "Kit Busters",
    "brand": "SOIL",
-   "description": "Brand: SOIL\n\n\n- Fun and playful custom notecard featuring a cute cartoon cat illustration\n- Cat design holding a coffee cup with the quote \u201cGood days start with coffee and cat\u201d\n- Light aqua blue border with a large white space in the center for personalized messages\n- Compact size, ideal for notes, gift tags, or small greetings\n- Printed on premium paper for a smooth writing experience\n- Whimsical and charming aesthetic perfect for cat lovers or casual stationery\n- Can be used for personal notes, thank-you cards, or journaling\n- Stackable set, neatly packaged for gifting or desk use\n- Minimalist yet vibrant design that adds a touch of personality to your correspondence",
+   "description": "Brand: SOIL\n\n\n- Fun and playful custom notecard featuring a cute cartoon cat illustration\n- Cat design holding a coffee cup with the quote “Good days start with coffee and cat”\n- Light aqua blue border with a large white space in the center for personalized messages\n- Compact size, ideal for notes, gift tags, or small greetings\n- Printed on premium paper for a smooth writing experience\n- Whimsical and charming aesthetic perfect for cat lovers or casual stationery\n- Can be used for personal notes, thank-you cards, or journaling\n- Stackable set, neatly packaged for gifting or desk use\n- Minimalist yet vibrant design that adds a touch of personality to your correspondence",
    "specs": [],
    "moq": 25,
    "list_price": 125,
@@ -2279,7 +2244,7 @@
    "category": "Notebooks",
    "subcategory": "Notebooks",
    "brand": "SOIL",
-   "description": "Brand: SOIL\n\n- Rounded A5 notebook with a classic 2mm cardboard cover for daily use\n- Durable hardcover construction ensures long-lasting performance\n- Secure inner-page lock-line prevents peeling and improves reading comfort\n- Designed to lay flat at 180\u00b0 for smooth, easy writing\n- Prevents page detachment for a better writing experience\n- Contains 98 Pages",
+   "description": "Brand: SOIL\n\n- Rounded A5 notebook with a classic 2mm cardboard cover for daily use\n- Durable hardcover construction ensures long-lasting performance\n- Secure inner-page lock-line prevents peeling and improves reading comfort\n- Designed to lay flat at 180° for smooth, easy writing\n- Prevents page detachment for a better writing experience\n- Contains 98 Pages",
    "specs": [],
    "moq": 25,
    "list_price": 575,
@@ -2312,7 +2277,7 @@
    "category": "Notebooks",
    "subcategory": "Notebooks",
    "brand": "SOIL",
-   "description": "Brand: SOIL\n\n- Pages can be torn out effortlessly due to the spiral binding\n- Hardcover spiral notebooks ideal for business, conferences, travel, journaling, and note-taking\n- Inner pages made of 120g thick, high-quality paper\n- Notebook size: 8.5\" \u00d7 5.5\"\n- Made in India",
+   "description": "Brand: SOIL\n\n- Pages can be torn out effortlessly due to the spiral binding\n- Hardcover spiral notebooks ideal for business, conferences, travel, journaling, and note-taking\n- Inner pages made of 120g thick, high-quality paper\n- Notebook size: 8.5\" × 5.5\"\n- Made in India",
    "specs": [],
    "moq": 25,
    "list_price": 625,
@@ -2344,7 +2309,7 @@
    "category": "Notebooks",
    "subcategory": "Notebooks",
    "brand": "SOIL",
-   "description": "Band: SOIL\n\n\n- Product: Eco-Friendly Lined Stitched Notebook\n- Size: A5 (8.5\" x 5.5\")\n- Pages: 48\n- Binding: Red stitched seam binding\n- Material: Made from 100% recycled paper\n- Ideal for writing, drawing, and painting\n- Sustainable and environmentally friendly\n- Lightweight and compact \u2013 perfect for everyday use\n- Made in India\n- A conscious choice for eco-aware individuals and creatives",
+   "description": "Band: SOIL\n\n\n- Product: Eco-Friendly Lined Stitched Notebook\n- Size: A5 (8.5\" x 5.5\")\n- Pages: 48\n- Binding: Red stitched seam binding\n- Material: Made from 100% recycled paper\n- Ideal for writing, drawing, and painting\n- Sustainable and environmentally friendly\n- Lightweight and compact – perfect for everyday use\n- Made in India\n- A conscious choice for eco-aware individuals and creatives",
    "specs": [],
    "moq": 25,
    "list_price": 275,
@@ -2472,7 +2437,7 @@
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
    "brand": "Generic",
-   "description": "Brand: Generic\n\n\n- Classic horizontal certificate frame with rich dark brown wood tones and natural grain details for a timeless, elegant look.\n- Features a deep bevel-moulded border that adds depth and enhances the professional presentation of displayed documents.\n- Includes a clean white mat that beautifully frames certificates, diplomas, awards, or photographs for added visual appeal.\n- Crafted from sturdy wood with a polished satin finish for durability and a refined appearance.\n- Designed to securely display standard-sized certificates while complementing office, home, or institutional d\u00e9cor.\n- Ideal for showcasing diplomas, achievement certificates, corporate awards, professional licenses, and cherished photographs.\n- A sophisticated display piece that preserves and highlights important accomplishments and memorable moments.",
+   "description": "Brand: Generic\n\n\n- Classic horizontal certificate frame with rich dark brown wood tones and natural grain details for a timeless, elegant look.\n- Features a deep bevel-moulded border that adds depth and enhances the professional presentation of displayed documents.\n- Includes a clean white mat that beautifully frames certificates, diplomas, awards, or photographs for added visual appeal.\n- Crafted from sturdy wood with a polished satin finish for durability and a refined appearance.\n- Designed to securely display standard-sized certificates while complementing office, home, or institutional décor.\n- Ideal for showcasing diplomas, achievement certificates, corporate awards, professional licenses, and cherished photographs.\n- A sophisticated display piece that preserves and highlights important accomplishments and memorable moments.",
    "specs": [],
    "moq": 25,
    "list_price": 2500,
@@ -2504,7 +2469,7 @@
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
    "brand": "Generic",
-   "description": "Brand : Generic\n\n\n- Professionally designed certificate notecard for your brand\n- Ideal for achievements, awards, or acknowledgments\n- Includes space for recipient\u2019s name, accomplishment description, and signatures\n- Embellished with a golden badge and blue ribbon graphic for a formal touch\n- Clean layout with modern fonts for readability\n- Can be personalized with custom names, text, or roles",
+   "description": "Brand : Generic\n\n\n- Professionally designed certificate notecard for your brand\n- Ideal for achievements, awards, or acknowledgments\n- Includes space for recipient’s name, accomplishment description, and signatures\n- Embellished with a golden badge and blue ribbon graphic for a formal touch\n- Clean layout with modern fonts for readability\n- Can be personalized with custom names, text, or roles",
    "specs": [],
    "moq": 25,
    "list_price": 175,
@@ -2849,7 +2814,7 @@
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
    "brand": "Generic",
-   "description": "Brand: Generic\n\n\n- Custom-Designed Mouse Pad \u2013 Uniquely printed with vibrant, high-quality artwork to add personality to your desk\n- Smooth Surface for Precision \u2013 Allows quick mouse movement and accurate cursor positioning\n- Multipurpose Use \u2013 Ideal for laptops, desktops, and PCs at home or the office\n- Durable Construction \u2013 3mm thick with stitched edges to prevent fraying\n- Size: 7.9\" x 7.9\" x 0.12\" (200mm x 200mm x 3mm)",
+   "description": "Brand: Generic\n\n\n- Custom-Designed Mouse Pad – Uniquely printed with vibrant, high-quality artwork to add personality to your desk\n- Smooth Surface for Precision – Allows quick mouse movement and accurate cursor positioning\n- Multipurpose Use – Ideal for laptops, desktops, and PCs at home or the office\n- Durable Construction – 3mm thick with stitched edges to prevent fraying\n- Size: 7.9\" x 7.9\" x 0.12\" (200mm x 200mm x 3mm)",
    "specs": [],
    "moq": 25,
    "list_price": 325,
@@ -2879,7 +2844,7 @@
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
    "brand": "Generic",
-   "description": "Brand: Generic\n\n\n- Premium wooden plaque designed to commemorate achievements, milestones, and special recognitions with elegance and prestige.\n- Crafted with a durable wooden frame and a refined finish for a classic and sophisticated appearance.\n- Features a high-quality printed metal plate with detailed artwork and text presentation.\n- Ideal for awards, appreciation ceremonies, corporate recognitions, military commemorations, and souvenir presentations.\n- Decorative gold-toned inner design enhances the premium and ceremonial appeal of the plaque.\n- Compact 6\u201d x 8\u201d size makes it suitable for desk display, wall mounting, or showcase presentation.\n- Strong and sturdy construction ensures long-lasting durability and display quality.\n- Perfect for gifting, institutional honors, and commemorative events.\n- Elegant design adds a professional and prestigious touch to any office, home, or display space.",
+   "description": "Brand: Generic\n\n\n- Premium wooden plaque designed to commemorate achievements, milestones, and special recognitions with elegance and prestige.\n- Crafted with a durable wooden frame and a refined finish for a classic and sophisticated appearance.\n- Features a high-quality printed metal plate with detailed artwork and text presentation.\n- Ideal for awards, appreciation ceremonies, corporate recognitions, military commemorations, and souvenir presentations.\n- Decorative gold-toned inner design enhances the premium and ceremonial appeal of the plaque.\n- Compact 6” x 8” size makes it suitable for desk display, wall mounting, or showcase presentation.\n- Strong and sturdy construction ensures long-lasting durability and display quality.\n- Perfect for gifting, institutional honors, and commemorative events.\n- Elegant design adds a professional and prestigious touch to any office, home, or display space.",
    "specs": [],
    "moq": 25,
    "list_price": 1200,
@@ -3195,7 +3160,7 @@
    "category": "Packaging & Others",
    "subcategory": "Packaging & Others",
    "brand": "Generic",
-   "description": "- Premium rigid construction provides enhanced durability and protection for the contents inside.\n- Hinged lid design allows smooth flip-open access while maintaining a sophisticated presentation.\n- One-piece box structure ensures stability and a premium unboxing experience.\n- Spacious interior accommodates a variety of products, gifts, kits, and promotional items.\n- Clean and minimalist design offers an elegant and professional appearance.\n- Suitable for corporate gifting, employee welcome kits, product packaging, event giveaways, and presentation purposes.\n- Sturdy walls help protect contents from external impact during storage and transportation.\n- Smooth surface allows easy customization with logos, branding, printing, embossing, or labeling.\n- Reusable design enables long-term use for storage and organization.\n- Secure closure helps keep contents neatly contained and protected.\n- Ideal for premium gifting and luxury packaging applications.\n- Approximate dimensions: 25 cm \u00d7 19 cm \u00d7 6 cm",
+   "description": "- Premium rigid construction provides enhanced durability and protection for the contents inside.\n- Hinged lid design allows smooth flip-open access while maintaining a sophisticated presentation.\n- One-piece box structure ensures stability and a premium unboxing experience.\n- Spacious interior accommodates a variety of products, gifts, kits, and promotional items.\n- Clean and minimalist design offers an elegant and professional appearance.\n- Suitable for corporate gifting, employee welcome kits, product packaging, event giveaways, and presentation purposes.\n- Sturdy walls help protect contents from external impact during storage and transportation.\n- Smooth surface allows easy customization with logos, branding, printing, embossing, or labeling.\n- Reusable design enables long-term use for storage and organization.\n- Secure closure helps keep contents neatly contained and protected.\n- Ideal for premium gifting and luxury packaging applications.\n- Approximate dimensions: 25 cm × 19 cm × 6 cm",
    "specs": [],
    "moq": 100,
    "list_price": 1300,
@@ -3351,7 +3316,7 @@
    "category": "Pens",
    "subcategory": "Pens",
    "brand": "Bio Q",
-   "description": "Brand: Bio Q\n\n- Set of 12 plantable seed pencils \u2013 write with them, then plant them once they\u2019re too short to use\n- Eco-friendly, biodegradable, non-toxic, sustainable, and made from recycled materials\n- Each pencil contains a seed capsule at the end with plant variants such as Marigold, Tomato, Chilli, Okra, Brinjal, Basil, Coriander, Methi, Sunflower, and Spinach\n- Encourages sustainability and awareness of eco-living\n- Made using high-quality seeds for better germination and growth",
+   "description": "Brand: Bio Q\n\n- Set of 12 plantable seed pencils – write with them, then plant them once they’re too short to use\n- Eco-friendly, biodegradable, non-toxic, sustainable, and made from recycled materials\n- Each pencil contains a seed capsule at the end with plant variants such as Marigold, Tomato, Chilli, Okra, Brinjal, Basil, Coriander, Methi, Sunflower, and Spinach\n- Encourages sustainability and awareness of eco-living\n- Made using high-quality seeds for better germination and growth",
    "specs": [],
    "moq": 25,
    "list_price": 750,
@@ -3538,9 +3503,9 @@
    "active": true
   },
   {
-   "sku": "CSUN-0002-XS",
+   "sku": "CSUN-0002",
    "name": "ET-TU Unisex Technical Performance Polo T-Shirt - Rama Blue",
-   "url_key": "et-tu-unisex-technical-performance-polo-t-shirt-rama-blue-csun-0002-xs",
+   "url_key": "et-tu-unisex-technical-performance-polo-t-shirt-rama-blue-csun-0002",
    "category": "Polos",
    "subcategory": "Polos",
    "brand": "ET-TU",
@@ -3557,198 +3522,12 @@
     }
    ],
    "sizes": [
-    "XS"
-   ],
-   "colors": [
-    "Rama Blue"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/o0cknv-csun-0002-xs.png?versionId=oKi3Dz4PKP.MyIh91hFYwGOYPdUsJmGY",
-   "decoration_method": "Embroidery",
-   "lead_time_days": 21,
-   "event_tags": [],
-   "active": true
-  },
-  {
-   "sku": "CSUN-0002-S",
-   "name": "ET-TU Unisex Technical Performance Polo T-Shirt - Rama Blue",
-   "url_key": "et-tu-unisex-technical-performance-polo-t-shirt-rama-blue-csun-0002-s",
-   "category": "Polos",
-   "subcategory": "Polos",
-   "brand": "ET-TU",
-   "description": "Brand: ET-TU\n\n\n- Crafted from 100% polyester micro pique for durability and comfort\n- Features a sturdy 230 GSM fabric weight\n- Moisture-wicking knit construction keeps you dry\n- Breathable design allows for optimal airflow\n- Ideal for activewear or comfortable all-day use\nGender : Unisex",
-   "specs": [],
-   "moq": 50,
-   "list_price": 2625,
-   "base_price": 1575,
-   "tiers": [
-    {
-     "min_qty": 50,
-     "max_qty": "",
-     "unit_price": 1575
-    }
-   ],
-   "sizes": [
-    "S"
-   ],
-   "colors": [
-    "Rama Blue"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/o0cknv-csun-0002-xs.png?versionId=oKi3Dz4PKP.MyIh91hFYwGOYPdUsJmGY",
-   "decoration_method": "Embroidery",
-   "lead_time_days": 21,
-   "event_tags": [],
-   "active": true
-  },
-  {
-   "sku": "CSUN-0002-M",
-   "name": "ET-TU Unisex Technical Performance Polo T-Shirt - Rama Blue",
-   "url_key": "et-tu-unisex-technical-performance-polo-t-shirt-rama-blue-csun-0002-m",
-   "category": "Polos",
-   "subcategory": "Polos",
-   "brand": "ET-TU",
-   "description": "Brand: ET-TU\n\n\n- Crafted from 100% polyester micro pique for durability and comfort\n- Features a sturdy 230 GSM fabric weight\n- Moisture-wicking knit construction keeps you dry\n- Breathable design allows for optimal airflow\n- Ideal for activewear or comfortable all-day use\nGender : Unisex",
-   "specs": [],
-   "moq": 50,
-   "list_price": 2625,
-   "base_price": 1575,
-   "tiers": [
-    {
-     "min_qty": 50,
-     "max_qty": "",
-     "unit_price": 1575
-    }
-   ],
-   "sizes": [
-    "M"
-   ],
-   "colors": [
-    "Rama Blue"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/o0cknv-csun-0002-xs.png?versionId=oKi3Dz4PKP.MyIh91hFYwGOYPdUsJmGY",
-   "decoration_method": "Embroidery",
-   "lead_time_days": 21,
-   "event_tags": [],
-   "active": true
-  },
-  {
-   "sku": "CSUN-0002-L",
-   "name": "ET-TU Unisex Technical Performance Polo T-Shirt - Rama Blue",
-   "url_key": "et-tu-unisex-technical-performance-polo-t-shirt-rama-blue-csun-0002-l",
-   "category": "Polos",
-   "subcategory": "Polos",
-   "brand": "ET-TU",
-   "description": "Brand: ET-TU\n\n\n- Crafted from 100% polyester micro pique for durability and comfort\n- Features a sturdy 230 GSM fabric weight\n- Moisture-wicking knit construction keeps you dry\n- Breathable design allows for optimal airflow\n- Ideal for activewear or comfortable all-day use\nGender : Unisex",
-   "specs": [],
-   "moq": 50,
-   "list_price": 2625,
-   "base_price": 1575,
-   "tiers": [
-    {
-     "min_qty": 50,
-     "max_qty": "",
-     "unit_price": 1575
-    }
-   ],
-   "sizes": [
-    "L"
-   ],
-   "colors": [
-    "Rama Blue"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/o0cknv-csun-0002-xs.png?versionId=oKi3Dz4PKP.MyIh91hFYwGOYPdUsJmGY",
-   "decoration_method": "Embroidery",
-   "lead_time_days": 21,
-   "event_tags": [],
-   "active": true
-  },
-  {
-   "sku": "CSUN-0002-XL",
-   "name": "ET-TU Unisex Technical Performance Polo T-Shirt - Rama Blue",
-   "url_key": "et-tu-unisex-technical-performance-polo-t-shirt-rama-blue-csun-0002-xl",
-   "category": "Polos",
-   "subcategory": "Polos",
-   "brand": "ET-TU",
-   "description": "Brand: ET-TU\n\n\n- Crafted from 100% polyester micro pique for durability and comfort\n- Features a sturdy 230 GSM fabric weight\n- Moisture-wicking knit construction keeps you dry\n- Breathable design allows for optimal airflow\n- Ideal for activewear or comfortable all-day use\nGender : Unisex",
-   "specs": [],
-   "moq": 50,
-   "list_price": 2625,
-   "base_price": 1575,
-   "tiers": [
-    {
-     "min_qty": 50,
-     "max_qty": "",
-     "unit_price": 1575
-    }
-   ],
-   "sizes": [
-    "XL"
-   ],
-   "colors": [
-    "Rama Blue"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/o0cknv-csun-0002-xs.png?versionId=oKi3Dz4PKP.MyIh91hFYwGOYPdUsJmGY",
-   "decoration_method": "Embroidery",
-   "lead_time_days": 21,
-   "event_tags": [],
-   "active": true
-  },
-  {
-   "sku": "CSUN-0002-2XL",
-   "name": "ET-TU Unisex Technical Performance Polo T-Shirt - Rama Blue",
-   "url_key": "et-tu-unisex-technical-performance-polo-t-shirt-rama-blue-csun-0002-2xl",
-   "category": "Polos",
-   "subcategory": "Polos",
-   "brand": "ET-TU",
-   "description": "Brand: ET-TU\n\n\n- Crafted from 100% polyester micro pique for durability and comfort\n- Features a sturdy 230 GSM fabric weight\n- Moisture-wicking knit construction keeps you dry\n- Breathable design allows for optimal airflow\n- Ideal for activewear or comfortable all-day use\nGender : Unisex",
-   "specs": [],
-   "moq": 50,
-   "list_price": 2625,
-   "base_price": 1575,
-   "tiers": [
-    {
-     "min_qty": 50,
-     "max_qty": "",
-     "unit_price": 1575
-    }
-   ],
-   "sizes": [
-    "2XL"
-   ],
-   "colors": [
-    "Rama Blue"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/o0cknv-csun-0002-xs.png?versionId=oKi3Dz4PKP.MyIh91hFYwGOYPdUsJmGY",
-   "decoration_method": "Embroidery",
-   "lead_time_days": 21,
-   "event_tags": [],
-   "active": true
-  },
-  {
-   "sku": "CSUN-0002-3XL",
-   "name": "ET-TU Unisex Technical Performance Polo T-Shirt - Rama Blue",
-   "url_key": "et-tu-unisex-technical-performance-polo-t-shirt-rama-blue-csun-0002-3xl",
-   "category": "Polos",
-   "subcategory": "Polos",
-   "brand": "ET-TU",
-   "description": "Brand: ET-TU\n\n\n- Crafted from 100% polyester micro pique for durability and comfort\n- Features a sturdy 230 GSM fabric weight\n- Moisture-wicking knit construction keeps you dry\n- Breathable design allows for optimal airflow\n- Ideal for activewear or comfortable all-day use\nGender : Unisex",
-   "specs": [],
-   "moq": 50,
-   "list_price": 2625,
-   "base_price": 1575,
-   "tiers": [
-    {
-     "min_qty": 50,
-     "max_qty": "",
-     "unit_price": 1575
-    }
-   ],
-   "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
     "3XL"
    ],
    "colors": [
@@ -3838,9 +3617,9 @@
    "active": true
   },
   {
-   "sku": "760038ASM",
+   "sku": "760038A",
    "name": "GILDAN Softstyle Midweight Adult T-Shirt - Sand",
-   "url_key": "gildan-softstyle-midweight-adult-t-shirt-sand-760038asm",
+   "url_key": "gildan-softstyle-midweight-adult-t-shirt-sand-760038a",
    "category": "T-Shirts",
    "subcategory": "T-Shirts",
    "brand": "Gildan",
@@ -3857,142 +3636,10 @@
     }
    ],
    "sizes": [
-    "S"
-   ],
-   "colors": [
-    "Sand"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/9213b3-csun-0952.png?versionId=R0NmJ.MeLsL60fM3rbj4YPdRwTISSLVa",
-   "decoration_method": "Screen Printing",
-   "lead_time_days": 60,
-   "event_tags": [
-    "Sustainability"
-   ],
-   "active": true
-  },
-  {
-   "sku": "760038AMD",
-   "name": "GILDAN Softstyle Midweight Adult T-Shirt - Sand",
-   "url_key": "gildan-softstyle-midweight-adult-t-shirt-sand-760038amd",
-   "category": "T-Shirts",
-   "subcategory": "T-Shirts",
-   "brand": "Gildan",
-   "description": "Brand: Gildan\n\n\n- Made from 100% ring-spun cotton for softness and durability.  \n- Fabric weight of 185 GSM ensures breathability and quality.\n- Diverts waste from landfills through sustainable practices of reducing, reusing, recycling, and recovering materials.\n- Gender: Men",
-   "specs": [],
-   "moq": 500,
-   "list_price": 900,
-   "base_price": 540,
-   "tiers": [
-    {
-     "min_qty": 500,
-     "max_qty": "",
-     "unit_price": 540
-    }
-   ],
-   "sizes": [
-    "M"
-   ],
-   "colors": [
-    "Sand"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/9213b3-csun-0952.png?versionId=R0NmJ.MeLsL60fM3rbj4YPdRwTISSLVa",
-   "decoration_method": "Screen Printing",
-   "lead_time_days": 60,
-   "event_tags": [
-    "Sustainability"
-   ],
-   "active": true
-  },
-  {
-   "sku": "760038ALG",
-   "name": "GILDAN Softstyle Midweight Adult T-Shirt - Sand",
-   "url_key": "gildan-softstyle-midweight-adult-t-shirt-sand-760038alg",
-   "category": "T-Shirts",
-   "subcategory": "T-Shirts",
-   "brand": "Gildan",
-   "description": "Brand: Gildan\n\n\n- Made from 100% ring-spun cotton for softness and durability.  \n- Fabric weight of 185 GSM ensures breathability and quality.\n- Diverts waste from landfills through sustainable practices of reducing, reusing, recycling, and recovering materials.\n- Gender: Men",
-   "specs": [],
-   "moq": 500,
-   "list_price": 900,
-   "base_price": 540,
-   "tiers": [
-    {
-     "min_qty": 500,
-     "max_qty": "",
-     "unit_price": 540
-    }
-   ],
-   "sizes": [
-    "L"
-   ],
-   "colors": [
-    "Sand"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/9213b3-csun-0952.png?versionId=R0NmJ.MeLsL60fM3rbj4YPdRwTISSLVa",
-   "decoration_method": "Screen Printing",
-   "lead_time_days": 60,
-   "event_tags": [
-    "Sustainability"
-   ],
-   "active": true
-  },
-  {
-   "sku": "760038AXL",
-   "name": "GILDAN Softstyle Midweight Adult T-Shirt - Sand",
-   "url_key": "gildan-softstyle-midweight-adult-t-shirt-sand-760038axl",
-   "category": "T-Shirts",
-   "subcategory": "T-Shirts",
-   "brand": "Gildan",
-   "description": "Brand: Gildan\n\n\n- Made from 100% ring-spun cotton for softness and durability.  \n- Fabric weight of 185 GSM ensures breathability and quality.\n- Diverts waste from landfills through sustainable practices of reducing, reusing, recycling, and recovering materials.\n- Gender: Men",
-   "specs": [],
-   "moq": 500,
-   "list_price": 900,
-   "base_price": 540,
-   "tiers": [
-    {
-     "min_qty": 500,
-     "max_qty": "",
-     "unit_price": 540
-    }
-   ],
-   "sizes": [
-    "XL"
-   ],
-   "colors": [
-    "Sand"
-   ],
-   "has_sizes": true,
-   "image": "https://cdn.store.link/products/store18473/9213b3-csun-0952.png?versionId=R0NmJ.MeLsL60fM3rbj4YPdRwTISSLVa",
-   "decoration_method": "Screen Printing",
-   "lead_time_days": 60,
-   "event_tags": [
-    "Sustainability"
-   ],
-   "active": true
-  },
-  {
-   "sku": "760038A2X",
-   "name": "GILDAN Softstyle Midweight Adult T-Shirt - Sand",
-   "url_key": "gildan-softstyle-midweight-adult-t-shirt-sand-760038a2x",
-   "category": "T-Shirts",
-   "subcategory": "T-Shirts",
-   "brand": "Gildan",
-   "description": "Brand: Gildan\n\n\n- Made from 100% ring-spun cotton for softness and durability.  \n- Fabric weight of 185 GSM ensures breathability and quality.\n- Diverts waste from landfills through sustainable practices of reducing, reusing, recycling, and recovering materials.\n- Gender: Men",
-   "specs": [],
-   "moq": 500,
-   "list_price": 900,
-   "base_price": 540,
-   "tiers": [
-    {
-     "min_qty": 500,
-     "max_qty": "",
-     "unit_price": 540
-    }
-   ],
-   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
     "2XL"
    ],
    "colors": [
@@ -4240,7 +3887,7 @@
    "category": "Totes & Slings",
    "subcategory": "Totes & Slings",
    "brand": "Okami",
-   "description": "Brand: OKAMI\n\n\n- The ZenPack LITE Messenger Bag by Okami is designed for executives, creatives, travelers, and commuters, combining sleek design with high functionality.\n- Built to adapt to different needs, it serves as a versatile everyday carry solution.\n- Features a dedicated laptop compartment for devices up to 15.6 inches and a padded section for tablets up to 11 inches.\n- Includes a spacious main compartment along with a total of 3 compartments for better organization and storage.\n- Equipped with Okami\u2019s integrated fast-charging system for seamless device charging on the go.\n- Comes with a weather shield cover to protect charging ports from rain and dust.\n- Offers convertible carry options, allowing use as both a messenger bag and a briefcase.\n- Includes a detachable padded shoulder strap with durable metal hardware and vegan leather accents.\n- Features a quick-access external slip pocket for easy access to documents.\n- Made with durable, water-resistant fabric and zippers, engineered in collaboration with DRYE by Okami.\n- Designed to withstand light rain and accidental spills.",
+   "description": "Brand: OKAMI\n\n\n- The ZenPack LITE Messenger Bag by Okami is designed for executives, creatives, travelers, and commuters, combining sleek design with high functionality.\n- Built to adapt to different needs, it serves as a versatile everyday carry solution.\n- Features a dedicated laptop compartment for devices up to 15.6 inches and a padded section for tablets up to 11 inches.\n- Includes a spacious main compartment along with a total of 3 compartments for better organization and storage.\n- Equipped with Okami’s integrated fast-charging system for seamless device charging on the go.\n- Comes with a weather shield cover to protect charging ports from rain and dust.\n- Offers convertible carry options, allowing use as both a messenger bag and a briefcase.\n- Includes a detachable padded shoulder strap with durable metal hardware and vegan leather accents.\n- Features a quick-access external slip pocket for easy access to documents.\n- Made with durable, water-resistant fabric and zippers, engineered in collaboration with DRYE by Okami.\n- Designed to withstand light rain and accidental spills.",
    "specs": [],
    "moq": 100,
    "list_price": 4999,
@@ -4337,7 +3984,7 @@
    "category": "Totes & Slings",
    "subcategory": "Totes & Slings",
    "brand": "The Backebenchers",
-   "description": "Brand: The Backbencher\n\n- Laptop bag crafted from nylon canvas with vegan leather accents  \n- Sleek professional design with cushioned build  \n- Includes detachable shoulder strap for versatile carrying  \n- Organized with inner pocket and single zipper pocket  \n- Suitable for laptops up to 15 inches  \n- Dimensions: 16.5 \u00d7 11 \u00d7 2.5 inches  \n- Available in navy blue & grey and black & grey color options  \n- Comes packaged in a craft paper box for eco-conscious presentation",
+   "description": "Brand: The Backbencher\n\n- Laptop bag crafted from nylon canvas with vegan leather accents  \n- Sleek professional design with cushioned build  \n- Includes detachable shoulder strap for versatile carrying  \n- Organized with inner pocket and single zipper pocket  \n- Suitable for laptops up to 15 inches  \n- Dimensions: 16.5 × 11 × 2.5 inches  \n- Available in navy blue & grey and black & grey color options  \n- Comes packaged in a craft paper box for eco-conscious presentation",
    "specs": [],
    "moq": 25,
    "list_price": 2899,
@@ -4399,7 +4046,7 @@
    "category": "Travel Extreme",
    "subcategory": "Travel Extreme",
    "brand": "American Tourister",
-   "description": "Brand: American Tourister \n\nCabin Size \u2013 55 CM\n\n- Lightweight polypropylene hard-shell luggage designed for convenient cabin travel and short trips\n- Cabin-friendly dimensions of 40 x 55 x 23 cm with a storage capacity of 34 litres\n- Weighs approximately 2.39 kg, making it easy to carry and manoeuvre during travel\n- Built with armoured impact-resistant material for improved durability and protection during transit\n- Features a fixed 3-digit combination lock system for secure storage of belongings\n- Smooth double-wheel configuration enables stable movement and effortless navigation across surfaces\n- Ergonomic grip handle and telescopic trolley system provide comfortable handling and portability\n- Interior packing straps help keep clothing and essentials organised and secure\n- Modern hard-shell exterior design suitable for both leisure and business travel",
+   "description": "Brand: American Tourister \n\nCabin Size – 55 CM\n\n- Lightweight polypropylene hard-shell luggage designed for convenient cabin travel and short trips\n- Cabin-friendly dimensions of 40 x 55 x 23 cm with a storage capacity of 34 litres\n- Weighs approximately 2.39 kg, making it easy to carry and manoeuvre during travel\n- Built with armoured impact-resistant material for improved durability and protection during transit\n- Features a fixed 3-digit combination lock system for secure storage of belongings\n- Smooth double-wheel configuration enables stable movement and effortless navigation across surfaces\n- Ergonomic grip handle and telescopic trolley system provide comfortable handling and portability\n- Interior packing straps help keep clothing and essentials organised and secure\n- Modern hard-shell exterior design suitable for both leisure and business travel",
    "specs": [],
    "moq": 25,
    "list_price": 8800,
@@ -4463,7 +4110,7 @@
    "category": "Travel Extreme",
    "subcategory": "Travel Extreme",
    "brand": "Swiss Military",
-   "description": "Brand: Swiss Military\n\n- Crafted from SwissFlex ultra-lightweight polypropylene (PP) material for exceptional durability, impact resistance, and ease of handling.\n- Hard-shell construction provides enhanced protection for belongings during business trips, vacations, and frequent travel.\n- Distinctive 3D geometric textured design delivers a modern, premium appearance while helping minimize visible scratches and scuffs.\n- Spacious interior compartment offers efficient packing and organization for clothing, accessories, and travel essentials.\n- Premium inner lining enhances durability and provides a refined travel experience.\n- Elastic separator compartment helps keep belongings secure, organized, and neatly arranged during transit.\n- Smooth 360\u00b0 spinner wheels ensure effortless, silent movement across airports, hotels, and various travel surfaces.\n- Ergonomic push-button metal trolley handle allows comfortable maneuverability and adjustable height control.\n- Integrated 3-dial combination lock provides added security and peace of mind while traveling.\n- Lightweight design reduces carrying effort without compromising on strength and reliability.\n- Ideal for business travel, leisure trips, weekend getaways, and corporate gifting purposes.\n- Designed to combine functionality, security, and premium aesthetics for modern travelers.\n- Cabin luggage capacity: 44 Litres.\n- Dimensions: 35 x 23 x 55 cm.\n- Suitable as carry-on luggage for convenient short-distance and business travel.\n- Color and finish designed to maintain a sophisticated and professional appearance throughout frequent use.",
+   "description": "Brand: Swiss Military\n\n- Crafted from SwissFlex ultra-lightweight polypropylene (PP) material for exceptional durability, impact resistance, and ease of handling.\n- Hard-shell construction provides enhanced protection for belongings during business trips, vacations, and frequent travel.\n- Distinctive 3D geometric textured design delivers a modern, premium appearance while helping minimize visible scratches and scuffs.\n- Spacious interior compartment offers efficient packing and organization for clothing, accessories, and travel essentials.\n- Premium inner lining enhances durability and provides a refined travel experience.\n- Elastic separator compartment helps keep belongings secure, organized, and neatly arranged during transit.\n- Smooth 360° spinner wheels ensure effortless, silent movement across airports, hotels, and various travel surfaces.\n- Ergonomic push-button metal trolley handle allows comfortable maneuverability and adjustable height control.\n- Integrated 3-dial combination lock provides added security and peace of mind while traveling.\n- Lightweight design reduces carrying effort without compromising on strength and reliability.\n- Ideal for business travel, leisure trips, weekend getaways, and corporate gifting purposes.\n- Designed to combine functionality, security, and premium aesthetics for modern travelers.\n- Cabin luggage capacity: 44 Litres.\n- Dimensions: 35 x 23 x 55 cm.\n- Suitable as carry-on luggage for convenient short-distance and business travel.\n- Color and finish designed to maintain a sophisticated and professional appearance throughout frequent use.",
    "specs": [],
    "moq": 25,
    "list_price": 8999,

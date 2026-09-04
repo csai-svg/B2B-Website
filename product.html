@@ -9,6 +9,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/app.css">
+<style>
+  /* Colour swatches. Each colour is its own SKU, so a swatch is a link to
+     that product rather than an in-page toggle — the URL, and anything the
+     buyer copies out of it, always names the exact SKU being ordered. */
+  .swatch-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
+  .swatch {
+    width: 34px; height: 34px; border-radius: 50%; display: block;
+    border: 1px solid rgba(0,0,0,.22); box-shadow: 0 0 0 2px #fff inset;
+    transition: .15s;
+  }
+  .swatch-link { text-decoration: none; text-align: center; }
+  .swatch-link:hover .swatch { transform: translateY(-2px); }
+  .swatch-link.on .swatch { box-shadow: 0 0 0 2px #fff inset, 0 0 0 2px var(--brand); }
+  .swatch-name { display: block; font-size: .72rem; margin-top: 4px; color: var(--muted); }
+  .swatch-link.on .swatch-name { color: var(--ink); font-weight: 700; }
+</style>
 </head>
 <body>
 <main class="wrap">
@@ -49,6 +65,24 @@ let P = null;
 /* Curated in the admin console, per product, and mutual: if this product
    points at another, that one points back. Skips anything that has since been
    hidden, because related lists go stale otherwise. */
+/* Sibling colours of this style, if it has any. Rendered as links because
+   each colour is a distinct SKU with its own price, MOQ and stock. */
+function colourPicker() {
+  const cw = P.colorway;
+  if (!cw || cw.siblings.length < 2) return null;
+  return el('div', {},
+    el('h3', {}, 'Colour'),
+    el('div', { class: 'swatch-row' }, cw.siblings.map(s =>
+      el('a', {
+        class: 'swatch-link' + (s.sku === P.sku ? ' on' : ''),
+        href: 'product.html?sku=' + encodeURIComponent(s.sku),
+        title: s.color + ' — ' + s.sku,
+        'aria-current': s.sku === P.sku ? 'true' : null,
+      },
+        el('span', { class: 'swatch', style: 'background:' + s.swatch }),
+        el('span', { class: 'swatch-name' }, s.color)))));
+}
+
 function paintRelated() {
   const skus = (P.related || []).filter(s => Catalog.bySku(s));
   if (!skus.length) return;
@@ -68,6 +102,8 @@ function buyPanel() {
     el('div', {},
       el('div', { class: 'card-sku' }, P.sku),
       el('h1', {}, P.name)),
+
+    colourPicker(),
 
     P.description ? el('p', { class: 'muted', style: 'white-space:pre-line' }, P.description) : null,
 

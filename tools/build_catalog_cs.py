@@ -77,8 +77,15 @@ def parent_key(row):
     sku = clean(row.get("SKU", ""))
     name = clean(row.get("CS Catalog Final Product Name") or row.get("Name", ""))
     base = fsc or sku or name
-    # strip trailing size suffix like _XS, _S, _M, _2XL, _3XL
-    base = re.sub(r"_(XS|S|M|L|XL|2XL|3XL|XXL|XXXL)$", "", base, flags=re.I)
+    # Strip a trailing size code so every size of a style lands on one parent.
+    # Three shapes occur in the export, and missing any of them leaks each size
+    # onto the storefront as its own product:
+    #   CSUN-0002-XL / RARE-071_4XL  separator-delimited
+    #   760038AXL / 760038A2X        glued two-char vendor code (SM MD LG XL 2X)
+    # Longest alternatives come first so "2XL" is not eaten as "XL".
+    SZ = r"XXXL|XXL|[2-6]XL|XS|XL|S|M|L"
+    base = re.sub(rf"[-_ ]({SZ})$", "", base, flags=re.I)
+    base = re.sub(r"(?<=[A-Za-z0-9]{4})(SM|MD|LG|XL|[2-6]X)$", "", base)
     return base or name
 
 
