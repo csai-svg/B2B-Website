@@ -1,8 +1,8 @@
 # Google Drive folder 1ox803NP73FVxxPTScm0DbB41sZPetc4T (catalogue@companystore.io)
-# Listing refreshed 2026-09-04. Format: <fileId>\t<filename>
+# Listing refreshed 2026-09-04 (second pass). Format: <fileId>\t<filename>
 # Files whose name matches a kit prefix (see tools/build_kit_media.py) become kit
-# imagery. Files named after a product are PRODUCT photography — they are not kit
-# images and build_kit_media.py will report them as unmapped, which is expected.
+# imagery. Files named after a product are PRODUCT photography — build_kit_media.py
+# reports those as unmapped, which is expected.
 14zsbFtNb5W5mYSn6SLanrFhs3KF-WKxJ	New-Joinee-Kit-1.jpg
 1DmH1i7YEwAQ4a4D17J2dP1Sa5WYBy6kK	New-Joinee-Kit-2.jpg
 10Ht3sRA8LGIfNyJUooRunvCcleS0_owk	New-Joinee-Kit-3.jpg
@@ -26,16 +26,17 @@
 1mS6BTyOo1skdZriG88GlYORVN_Xcaac1	New-Mom-&-Baby-kit-2.jpg
 1RSzKKkKKUkUP8Zh47q4Vi6QdLFL-EBfM	New-Mom-&-Baby-kit-3.jpg
 1vfXugq1N2zoXIfqxjEhNLVogrFHR-wCU	New-Mom-&-Baby-kit-4.jpg
+# LOCAL OVERRIDE: this file is still called "Digital Thermometer" in Drive, but the
+# user asked for it back in the New Mom kit. Rename it in Drive to
+# New-Mom-&-Baby-kit-5.jpg so the folder and this index agree.
 1S_H-96m0z1t67suaxsedbA-BcbWnTX41	New-Mom-&-Baby-kit-5.jpg
 12dzD70v27OS44BPTjQzy5UuKakOEUhap	Sustainable-1.jpg
 1AwDDmAZOBbDlI5kHHslAu5dO_96d9NFR	Sustainable-2.jpg
 15GBXL9SRPmAdxaV20dre-8dw0VNnB8Jb	Sustainable-3.jpg
 1MWaCoOzfNqFeT3CFwl8Dpc1d6ki92gRd	Sustainable-4.jpg
-1VSCvmC8RvCcg2Z0ZklBxy8zRwBok5FaM	FG-1.jpg
 1kdmy0YjWdXJ9oJtDLMaEWt3awfWVRFkj	FG-3.jpg
 1ckiEZUa88O5130jPXjVs8ZXcgU50Gh7u	FG-5.jpg
 1gYCXLLKiy97_lwwRGTjMDM67-cp899ID	FG-6.jpg
-1iriSvfdOfPPz2W34IggcmPT3gXmZedAT	FG-8.jpg
 1LmSeMD-KeoGFqTP1jMahbf1dvBQ2AEgd	FG-10.jpg
 18vx_fXKzXNOVp3b0a1ObMXcB3WE6t27M	FG-11.jpg
 1x-dantQBFO--mWdbH99OnxWYdqm1S5kv	FG-15.jpg
@@ -46,8 +47,10 @@
 1BzqZ3OMf5339tDxUbI-SnlwnHNYaYhOh	Personal-Milestone-4.jpg
 15oGCc_inZ6F_KrRrQbpRCc3RLwVroPwG	PM-1.jpg
 11y8RueGNN5mLBP-gFVGpu6vT9Jt60aNj	PM-3.jpg
-# --- product photography (renamed by the user 2026-09-04, not kit imagery) ---
+# --- product photography (renamed by the user, not kit imagery) ---
 1vCCuDUNdIUIyMsnbqiI92ba3sCZGrrMp	Himalayan Intimate Wipes
 1G8k7vluU6aEljnp8ZpzEi-DzxF9Qz0RF	Tesla Classic Ball Pen
 1Nqx2YomGtrXfEzZcaZITJqSatJ9YVIXK	Capri R-Pet Premium Notebooks
 1Kswy5-NZU879cXF-5WnS3hRkmOXEKA1T	SOIL Camp Shirt
+1VSCvmC8RvCcg2Z0ZklBxy8zRwBok5FaM	Smoor Cookies
+1iriSvfdOfPPz2W34IggcmPT3gXmZedAT	Smoor Nougat Bar

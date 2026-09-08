@@ -287,12 +287,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 4199,
-   "base_price": 3359,
+   "base_price": 4199.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 3359
+     "unit_price": 4199.0
     }
    ],
    "sizes": [],
@@ -317,12 +317,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 5299,
-   "base_price": 4239,
+   "base_price": 5299.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 4239
+     "unit_price": 5299.0
     }
    ],
    "sizes": [
@@ -349,12 +349,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 8999,
-   "base_price": 7199,
+   "base_price": 8999.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 7199
+     "unit_price": 8999.0
     }
    ],
    "sizes": [],
@@ -379,12 +379,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 1750,
-   "base_price": 1050,
+   "base_price": 1750.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 1050
+     "unit_price": 1750.0
     }
    ],
    "sizes": [],
@@ -411,12 +411,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 2700,
-   "base_price": 1620,
+   "base_price": 2700.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 1620
+     "unit_price": 2700.0
     }
    ],
    "sizes": [],
@@ -441,12 +441,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 3550,
-   "base_price": 2130,
+   "base_price": 3550.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 2130
+     "unit_price": 3550.0
     }
    ],
    "sizes": [],
@@ -471,12 +471,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 2800,
-   "base_price": 1680,
+   "base_price": 2800.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 1680
+     "unit_price": 2800.0
     }
    ],
    "sizes": [],
@@ -501,12 +501,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 5600,
-   "base_price": 3360,
+   "base_price": 5600.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 3360
+     "unit_price": 5600.0
     }
    ],
    "sizes": [],
@@ -533,12 +533,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 4499,
-   "base_price": 3599,
+   "base_price": 4499.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 3599
+     "unit_price": 4499.0
     }
    ],
    "sizes": [
@@ -565,12 +565,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 3299,
-   "base_price": 2639,
+   "base_price": 3299.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 2639
+     "unit_price": 3299.0
     }
    ],
    "sizes": [],
@@ -595,12 +595,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 1550,
-   "base_price": 930,
+   "base_price": 1550.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 930
+     "unit_price": 1550.0
     }
    ],
    "sizes": [
@@ -629,12 +629,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 599,
-   "base_price": 479,
+   "base_price": 599.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 479
+     "unit_price": 599.0
     }
    ],
    "sizes": [],
@@ -661,12 +661,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 550,
-   "base_price": 275,
+   "base_price": 550.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 275
+     "unit_price": 550.0
     }
    ],
    "sizes": [
@@ -695,12 +695,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 300,
-   "base_price": 190,
+   "base_price": 300.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 190
+     "unit_price": 300.0
     }
    ],
    "sizes": [
@@ -729,12 +729,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 1250,
-   "base_price": 1000,
+   "base_price": 1250.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 1000
+     "unit_price": 1250.0
     }
    ],
    "sizes": [
@@ -763,12 +763,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 1500,
-   "base_price": 900,
+   "base_price": 1500.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 900
+     "unit_price": 1500.0
     }
    ],
    "sizes": [
@@ -797,12 +797,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 1500,
-   "base_price": 900,
+   "base_price": 1500.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 900
+     "unit_price": 1500.0
     }
    ],
    "sizes": [
@@ -831,12 +831,12 @@
    "specs": [],
    "moq": 500,
    "list_price": 825,
-   "base_price": 495,
+   "base_price": 825.0,
    "tiers": [
     {
      "min_qty": 500,
      "max_qty": "",
-     "unit_price": 495
+     "unit_price": 825.0
     }
    ],
    "sizes": [
@@ -865,12 +865,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 499,
-   "base_price": 400,
+   "base_price": 499.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 400
+     "unit_price": 499.0
     }
    ],
    "sizes": [
@@ -899,12 +899,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 199,
-   "base_price": 159,
+   "base_price": 199.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 159
+     "unit_price": 199.0
     }
    ],
    "sizes": [
@@ -934,12 +934,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 6999,
-   "base_price": 5599,
+   "base_price": 6999.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 5599
+     "unit_price": 6999.0
     }
    ],
    "sizes": [],
@@ -964,12 +964,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 1225,
-   "base_price": 735,
+   "base_price": 1225.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 735
+     "unit_price": 1225.0
     }
    ],
    "sizes": [],
@@ -996,12 +996,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 5250,
-   "base_price": 3150,
+   "base_price": 5250.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 3150
+     "unit_price": 5250.0
     }
    ],
    "sizes": [],
@@ -1026,12 +1026,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 170,
-   "base_price": 136,
+   "base_price": 170.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 136
+     "unit_price": 170.0
     }
    ],
    "sizes": [],
@@ -1039,7 +1039,7 @@
     "NA"
    ],
    "has_sizes": false,
-   "image": "",
+   "image": "https://lh3.googleusercontent.com/d/1VSCvmC8RvCcg2Z0ZklBxy8zRwBok5FaM=w1200",
    "decoration_method": "NA",
    "lead_time_days": 14,
    "event_tags": [],
@@ -1056,18 +1056,18 @@
    "specs": [],
    "moq": 25,
    "list_price": 449,
-   "base_price": 359,
+   "base_price": 449.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 359
+     "unit_price": 449.0
     }
    ],
    "sizes": [],
    "colors": [],
    "has_sizes": false,
-   "image": "",
+   "image": "https://lh3.googleusercontent.com/d/1iriSvfdOfPPz2W34IggcmPT3gXmZedAT=w1200",
    "decoration_method": "Sleeve",
    "lead_time_days": 14,
    "event_tags": [],
@@ -1084,12 +1084,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 7250,
-   "base_price": 4350,
+   "base_price": 7250.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 4350
+     "unit_price": 7250.0
     }
    ],
    "sizes": [
@@ -1122,12 +1122,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 5499,
-   "base_price": 4399,
+   "base_price": 5499.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 4399
+     "unit_price": 5499.0
     }
    ],
    "sizes": [],
@@ -1152,12 +1152,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 89900,
-   "base_price": 71920,
+   "base_price": 89900.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 71920
+     "unit_price": 89900.0
     }
    ],
    "sizes": [],
@@ -1182,12 +1182,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 6999,
-   "base_price": 5599,
+   "base_price": 6999.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 5599
+     "unit_price": 6999.0
     }
    ],
    "sizes": [],
@@ -1212,12 +1212,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 39999,
-   "base_price": 31999,
+   "base_price": 39999.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 31999
+     "unit_price": 39999.0
     }
    ],
    "sizes": [],
@@ -1242,12 +1242,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 50,
-   "base_price": 30,
+   "base_price": 50.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 30
+     "unit_price": 50.0
     }
    ],
    "sizes": [],
@@ -1274,12 +1274,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 825,
-   "base_price": 495,
+   "base_price": 825.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 495
+     "unit_price": 825.0
     }
    ],
    "sizes": [],
@@ -1306,12 +1306,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 825,
-   "base_price": 495,
+   "base_price": 825.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 495
+     "unit_price": 825.0
     }
    ],
    "sizes": [],
@@ -1338,12 +1338,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 325,
-   "base_price": 195,
+   "base_price": 325.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 195
+     "unit_price": 325.0
     }
    ],
    "sizes": [],
@@ -1368,12 +1368,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 325,
-   "base_price": 195,
+   "base_price": 325.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 195
+     "unit_price": 325.0
     }
    ],
    "sizes": [],
@@ -1398,12 +1398,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 325,
-   "base_price": 195,
+   "base_price": 325.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 195
+     "unit_price": 325.0
     }
    ],
    "sizes": [],
@@ -1428,12 +1428,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 325,
-   "base_price": 195,
+   "base_price": 325.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 195
+     "unit_price": 325.0
     }
    ],
    "sizes": [],
@@ -1460,12 +1460,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 275,
-   "base_price": 220,
+   "base_price": 275.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 220
+     "unit_price": 275.0
     }
    ],
    "sizes": [],
@@ -1490,12 +1490,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 50,
-   "base_price": 40,
+   "base_price": 50.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 40
+     "unit_price": 50.0
     }
    ],
    "sizes": [],
@@ -1520,12 +1520,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 1900,
-   "base_price": 1140,
+   "base_price": 1900.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 1140
+     "unit_price": 1900.0
     }
    ],
    "sizes": [],
@@ -1552,12 +1552,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 5995,
-   "base_price": 4796,
+   "base_price": 5995.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 4796
+     "unit_price": 5995.0
     }
    ],
    "sizes": [],
@@ -1582,12 +1582,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 185,
-   "base_price": 150,
+   "base_price": 185.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 150
+     "unit_price": 185.0
     }
    ],
    "sizes": [],
@@ -1612,12 +1612,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 145,
-   "base_price": 115,
+   "base_price": 145.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 115
+     "unit_price": 145.0
     }
    ],
    "sizes": [],
@@ -1642,12 +1642,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 700,
-   "base_price": 420,
+   "base_price": 700.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 420
+     "unit_price": 700.0
     }
    ],
    "sizes": [],
@@ -1672,12 +1672,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 475,
-   "base_price": 285,
+   "base_price": 475.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 285
+     "unit_price": 475.0
     }
    ],
    "sizes": [],
@@ -1704,12 +1704,12 @@
    "specs": [],
    "moq": 500,
    "list_price": 3750,
-   "base_price": 2250,
+   "base_price": 3750.0,
    "tiers": [
     {
      "min_qty": 500,
      "max_qty": "",
-     "unit_price": 2250
+     "unit_price": 3750.0
     }
    ],
    "sizes": [],
@@ -1736,12 +1736,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 4499,
-   "base_price": 3599,
+   "base_price": 4499.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 3599
+     "unit_price": 4499.0
     }
    ],
    "sizes": [
@@ -1772,12 +1772,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 5475,
-   "base_price": 3285,
+   "base_price": 5475.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 3285
+     "unit_price": 5475.0
     }
    ],
    "sizes": [
@@ -1810,12 +1810,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 3800,
-   "base_price": 2280,
+   "base_price": 3800.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 2280
+     "unit_price": 3800.0
     }
    ],
    "sizes": [
@@ -1850,12 +1850,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 3800,
-   "base_price": 2280,
+   "base_price": 3800.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 2280
+     "unit_price": 3800.0
     }
    ],
    "sizes": [
@@ -1888,12 +1888,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 4499,
-   "base_price": 3600,
+   "base_price": 4499.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 3600
+     "unit_price": 4499.0
     }
    ],
    "sizes": [
@@ -1926,12 +1926,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 3999,
-   "base_price": 3199,
+   "base_price": 3999.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 3199
+     "unit_price": 3999.0
     }
    ],
    "sizes": [
@@ -1964,12 +1964,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 2750,
-   "base_price": 1650,
+   "base_price": 2750.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 1650
+     "unit_price": 2750.0
     }
    ],
    "sizes": [
@@ -2004,12 +2004,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 2750,
-   "base_price": 1650,
+   "base_price": 2750.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 1650
+     "unit_price": 2750.0
     }
    ],
    "sizes": [
@@ -2042,12 +2042,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 3999,
-   "base_price": 3200,
+   "base_price": 3999.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 3200
+     "unit_price": 3999.0
     }
    ],
    "sizes": [
@@ -2081,12 +2081,12 @@
    "specs": [],
    "moq": 500,
    "list_price": 10556,
-   "base_price": 5278,
+   "base_price": 10556.0,
    "tiers": [
     {
      "min_qty": 500,
      "max_qty": "",
-     "unit_price": 5278
+     "unit_price": 10556.0
     }
    ],
    "sizes": [
@@ -2119,12 +2119,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 125,
-   "base_price": 75,
+   "base_price": 125.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 75
+     "unit_price": 125.0
     }
    ],
    "sizes": [],
@@ -2151,12 +2151,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 125,
-   "base_price": 75,
+   "base_price": 125.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 75
+     "unit_price": 125.0
     }
    ],
    "sizes": [],
@@ -2184,12 +2184,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 100,
-   "base_price": 60,
+   "base_price": 100.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 60
+     "unit_price": 100.0
     }
    ],
    "sizes": [],
@@ -2216,12 +2216,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 1000,
-   "base_price": 600,
+   "base_price": 1000.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 600
+     "unit_price": 1000.0
     }
    ],
    "sizes": [],
@@ -2248,12 +2248,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 575,
-   "base_price": 345,
+   "base_price": 575.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 345
+     "unit_price": 575.0
     }
    ],
    "sizes": [],
@@ -2281,12 +2281,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 625,
-   "base_price": 375,
+   "base_price": 625.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 375
+     "unit_price": 625.0
     }
    ],
    "sizes": [],
@@ -2313,12 +2313,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 275,
-   "base_price": 165,
+   "base_price": 275.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 165
+     "unit_price": 275.0
     }
    ],
    "sizes": [],
@@ -2345,12 +2345,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 1000,
-   "base_price": 600,
+   "base_price": 1000.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 600
+     "unit_price": 1000.0
     }
    ],
    "sizes": [],
@@ -2377,12 +2377,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 525,
-   "base_price": 262,
+   "base_price": 525.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 262
+     "unit_price": 525.0
     }
    ],
    "sizes": [],
@@ -2409,12 +2409,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 399,
-   "base_price": 319,
+   "base_price": 399.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 319
+     "unit_price": 399.0
     }
    ],
    "sizes": [],
@@ -2441,12 +2441,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 2500,
-   "base_price": 1500,
+   "base_price": 2500.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 1500
+     "unit_price": 2500.0
     }
    ],
    "sizes": [],
@@ -2473,12 +2473,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 175,
-   "base_price": 105,
+   "base_price": 175.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 105
+     "unit_price": 175.0
     }
    ],
    "sizes": [],
@@ -2505,12 +2505,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 125,
-   "base_price": 75,
+   "base_price": 125.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 75
+     "unit_price": 125.0
     }
    ],
    "sizes": [],
@@ -2537,12 +2537,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 110,
-   "base_price": 66,
+   "base_price": 110.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 66
+     "unit_price": 110.0
     }
    ],
    "sizes": [],
@@ -2569,12 +2569,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 110,
-   "base_price": 66,
+   "base_price": 110.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 66
+     "unit_price": 110.0
     }
    ],
    "sizes": [],
@@ -2601,12 +2601,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 110,
-   "base_price": 66,
+   "base_price": 110.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 66
+     "unit_price": 110.0
     }
    ],
    "sizes": [],
@@ -2633,12 +2633,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 1500,
-   "base_price": 900,
+   "base_price": 1500.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 900
+     "unit_price": 1500.0
     }
    ],
    "sizes": [],
@@ -2663,12 +2663,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 325,
-   "base_price": 195,
+   "base_price": 325.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 195
+     "unit_price": 325.0
     }
    ],
    "sizes": [],
@@ -2693,12 +2693,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 2750,
-   "base_price": 1650,
+   "base_price": 2750.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 1650
+     "unit_price": 2750.0
     }
    ],
    "sizes": [],
@@ -2723,12 +2723,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 575,
-   "base_price": 345,
+   "base_price": 575.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 345
+     "unit_price": 575.0
     }
    ],
    "sizes": [],
@@ -2756,12 +2756,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 575,
-   "base_price": 345,
+   "base_price": 575.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 345
+     "unit_price": 575.0
     }
    ],
    "sizes": [],
@@ -2786,12 +2786,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 275,
-   "base_price": 165,
+   "base_price": 275.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 165
+     "unit_price": 275.0
     }
    ],
    "sizes": [],
@@ -2818,12 +2818,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 325,
-   "base_price": 195,
+   "base_price": 325.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 195
+     "unit_price": 325.0
     }
    ],
    "sizes": [],
@@ -2848,12 +2848,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 1200,
-   "base_price": 600,
+   "base_price": 1200.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 600
+     "unit_price": 1200.0
     }
    ],
    "sizes": [],
@@ -2880,12 +2880,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 725,
-   "base_price": 435,
+   "base_price": 725.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 435
+     "unit_price": 725.0
     }
    ],
    "sizes": [],
@@ -2912,12 +2912,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 525,
-   "base_price": 315,
+   "base_price": 525.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 315
+     "unit_price": 525.0
     }
    ],
    "sizes": [],
@@ -2944,12 +2944,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 1100,
-   "base_price": 660,
+   "base_price": 1100.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 660
+     "unit_price": 1100.0
     }
    ],
    "sizes": [],
@@ -2976,12 +2976,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 75,
-   "base_price": 45,
+   "base_price": 75.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 45
+     "unit_price": 75.0
     }
    ],
    "sizes": [],
@@ -3008,12 +3008,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 50,
-   "base_price": 30,
+   "base_price": 50.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 30
+     "unit_price": 50.0
     }
    ],
    "sizes": [],
@@ -3038,12 +3038,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 75,
-   "base_price": 45,
+   "base_price": 75.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 45
+     "unit_price": 75.0
     }
    ],
    "sizes": [],
@@ -3068,12 +3068,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 75,
-   "base_price": 45,
+   "base_price": 75.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 45
+     "unit_price": 75.0
     }
    ],
    "sizes": [],
@@ -3100,12 +3100,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 75,
-   "base_price": 45,
+   "base_price": 75.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 45
+     "unit_price": 75.0
     }
    ],
    "sizes": [],
@@ -3132,12 +3132,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 75,
-   "base_price": 45,
+   "base_price": 75.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 45
+     "unit_price": 75.0
     }
    ],
    "sizes": [],
@@ -3164,12 +3164,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 1300,
-   "base_price": 650,
+   "base_price": 1300.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 650
+     "unit_price": 1300.0
     }
    ],
    "sizes": [],
@@ -3194,12 +3194,12 @@
    "specs": [],
    "moq": 500,
    "list_price": 175,
-   "base_price": 105,
+   "base_price": 175.0,
    "tiers": [
     {
      "min_qty": 500,
      "max_qty": "",
-     "unit_price": 105
+     "unit_price": 175.0
     }
    ],
    "sizes": [],
@@ -3226,12 +3226,12 @@
    "specs": [],
    "moq": 500,
    "list_price": 225,
-   "base_price": 135,
+   "base_price": 225.0,
    "tiers": [
     {
      "min_qty": 500,
      "max_qty": "",
-     "unit_price": 135
+     "unit_price": 225.0
     }
    ],
    "sizes": [],
@@ -3258,12 +3258,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 225,
-   "base_price": 135,
+   "base_price": 225.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 135
+     "unit_price": 225.0
     }
    ],
    "sizes": [],
@@ -3290,12 +3290,12 @@
    "specs": [],
    "moq": 500,
    "list_price": 75,
-   "base_price": 45,
+   "base_price": 75.0,
    "tiers": [
     {
      "min_qty": 500,
      "max_qty": "",
-     "unit_price": 45
+     "unit_price": 75.0
     }
    ],
    "sizes": [],
@@ -3320,12 +3320,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 750,
-   "base_price": 450,
+   "base_price": 750.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 450
+     "unit_price": 750.0
     }
    ],
    "sizes": [],
@@ -3350,12 +3350,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 275,
-   "base_price": 165,
+   "base_price": 275.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 165
+     "unit_price": 275.0
     }
    ],
    "sizes": [],
@@ -3383,12 +3383,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 3895,
-   "base_price": 3116,
+   "base_price": 3895.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 3116
+     "unit_price": 3895.0
     }
    ],
    "sizes": [],
@@ -3413,12 +3413,12 @@
    "specs": [],
    "moq": 500,
    "list_price": 50,
-   "base_price": 30,
+   "base_price": 50.0,
    "tiers": [
     {
      "min_qty": 500,
      "max_qty": "",
-     "unit_price": 30
+     "unit_price": 50.0
     }
    ],
    "sizes": [],
@@ -3445,12 +3445,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 175,
-   "base_price": 105,
+   "base_price": 175.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 105
+     "unit_price": 175.0
     }
    ],
    "sizes": [],
@@ -3475,12 +3475,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 3200,
-   "base_price": 1920,
+   "base_price": 3200.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 1920
+     "unit_price": 3200.0
     }
    ],
    "sizes": [
@@ -3513,12 +3513,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 2625,
-   "base_price": 1575,
+   "base_price": 2625.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 1575
+     "unit_price": 2625.0
     }
    ],
    "sizes": [
@@ -3551,12 +3551,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 1425,
-   "base_price": 855,
+   "base_price": 1425.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 855
+     "unit_price": 1425.0
     }
    ],
    "sizes": [
@@ -3589,12 +3589,12 @@
    "specs": [],
    "moq": 10,
    "list_price": 1999,
-   "base_price": 1599,
+   "base_price": 1999.0,
    "tiers": [
     {
      "min_qty": 10,
      "max_qty": "",
-     "unit_price": 1599
+     "unit_price": 1999.0
     }
    ],
    "sizes": [
@@ -3627,12 +3627,12 @@
    "specs": [],
    "moq": 500,
    "list_price": 900,
-   "base_price": 540,
+   "base_price": 900.0,
    "tiers": [
     {
      "min_qty": 500,
      "max_qty": "",
-     "unit_price": 540
+     "unit_price": 900.0
     }
    ],
    "sizes": [
@@ -3665,12 +3665,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 1050,
-   "base_price": 630,
+   "base_price": 1050.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 630
+     "unit_price": 1050.0
     }
    ],
    "sizes": [
@@ -3705,12 +3705,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 1000,
-   "base_price": 600,
+   "base_price": 1000.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 600
+     "unit_price": 1000.0
     }
    ],
    "sizes": [
@@ -3745,12 +3745,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 975,
-   "base_price": 585,
+   "base_price": 975.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 585
+     "unit_price": 975.0
     }
    ],
    "sizes": [
@@ -3785,12 +3785,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 1000,
-   "base_price": 600,
+   "base_price": 1000.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 600
+     "unit_price": 1000.0
     }
    ],
    "sizes": [
@@ -3823,12 +3823,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 1050,
-   "base_price": 630,
+   "base_price": 1050.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 630
+     "unit_price": 1050.0
     }
    ],
    "sizes": [
@@ -3861,12 +3861,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 2700,
-   "base_price": 1620,
+   "base_price": 2700.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 1620
+     "unit_price": 2700.0
     }
    ],
    "sizes": [],
@@ -3891,12 +3891,12 @@
    "specs": [],
    "moq": 100,
    "list_price": 4999,
-   "base_price": 3999,
+   "base_price": 4999.0,
    "tiers": [
     {
      "min_qty": 100,
      "max_qty": "",
-     "unit_price": 3999
+     "unit_price": 4999.0
     }
    ],
    "sizes": [
@@ -3923,12 +3923,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 700,
-   "base_price": 420,
+   "base_price": 700.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 420
+     "unit_price": 700.0
     }
    ],
    "sizes": [],
@@ -3956,12 +3956,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 625,
-   "base_price": 375,
+   "base_price": 625.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 375
+     "unit_price": 625.0
     }
    ],
    "sizes": [],
@@ -3988,12 +3988,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 2899,
-   "base_price": 2319,
+   "base_price": 2899.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 2319
+     "unit_price": 2899.0
     }
    ],
    "sizes": [],
@@ -4018,12 +4018,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 725,
-   "base_price": 435,
+   "base_price": 725.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 435
+     "unit_price": 725.0
     }
    ],
    "sizes": [],
@@ -4050,12 +4050,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 8800,
-   "base_price": 7040,
+   "base_price": 8800.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 7040
+     "unit_price": 8800.0
     }
    ],
    "sizes": [
@@ -4082,12 +4082,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 325,
-   "base_price": 195,
+   "base_price": 325.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 195
+     "unit_price": 325.0
     }
    ],
    "sizes": [],
@@ -4114,12 +4114,12 @@
    "specs": [],
    "moq": 25,
    "list_price": 8999,
-   "base_price": 7199,
+   "base_price": 8999.0,
    "tiers": [
     {
      "min_qty": 25,
      "max_qty": "",
-     "unit_price": 7199
+     "unit_price": 8999.0
     }
    ],
    "sizes": [
@@ -4146,12 +4146,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 1375,
-   "base_price": 825,
+   "base_price": 1375.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 825
+     "unit_price": 1375.0
     }
    ],
    "sizes": [],
@@ -4178,12 +4178,12 @@
    "specs": [],
    "moq": 50,
    "list_price": 2475,
-   "base_price": 1485,
+   "base_price": 2475.0,
    "tiers": [
     {
      "min_qty": 50,
      "max_qty": "",
-     "unit_price": 1485
+     "unit_price": 2475.0
     }
    ],
    "sizes": [],
