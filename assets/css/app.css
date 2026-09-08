@@ -638,3 +638,14 @@ input[type=file] { font-size: .85rem; }
 .warn a { color: #5A4200; text-decoration: underline; }
 .tag-warn { background: #FFF1C2; color: #6B4E00; border-radius: 999px;
             padding: 2px 9px; font-size: .72rem; font-weight: 800; display: inline-block; }
+
+
+/* No price to show. The markup mirrors a priced card exactly and the text is
+   blank, so this must NOT restyle anything — any font-size of its own would
+   change the reserved height and leave the grid rows uneven. */
+.card-price-poa { visibility: hidden; }
+.poa-panel {
+  border: 1px solid var(--line); border-left: 3px solid var(--brand);
+  border-radius: var(--radius); padding: 16px 18px; margin: 4px 0 8px;
+}
+.poa-panel strong { display: block; font-size: 1.15rem; margin-bottom: 4px; }

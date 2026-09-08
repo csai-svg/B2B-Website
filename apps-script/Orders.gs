@@ -113,6 +113,17 @@ function priceOrder(rawLines, overrides) {
     var negotiated = ov !== undefined && ov !== null && ov !== '' && isFinite(Number(ov));
     var unit = negotiated ? Number(ov) : listUnit;
 
+    /* A product with no catalogue price is quoted per enquiry — the storefront
+       shows "Request for price" and renders no Add to cart. If such a line
+       reaches here anyway (a stale cart, a crafted request), refuse it rather
+       than booking the order at zero. A NEGOTIATED price is still allowed
+       through, because that is exactly how these get sold. */
+    if (!negotiated && !(Number(listUnit) > 0)) {
+      throw new Error('“' + p.name + '” (' + sku + ') has no catalogue price yet — ' +
+                      'it is quoted on request. Remove it from the cart, or raise it ' +
+                      'as an order for the client with an agreed price.');
+    }
+
     /* The rate follows the TIER the order landed on, because the apparel slab
        turns on the per-unit price: the same jacket is 18% at one and 5% at a
        thousand. A tier with no rate of its own inherits the product's.

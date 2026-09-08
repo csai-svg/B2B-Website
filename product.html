@@ -110,7 +110,8 @@ function buyPanel() {
     (P.specs || []).length ? el('table', { class: 'spec-table' },
       el('tbody', {}, P.specs.map(([k, v]) => el('tr', {}, el('td', {}, k), el('td', {}, v))))) : null,
 
-    el('div', {},
+
+    hasPrice(P) ? el('div', {},
       el('h3', {}, 'Volume pricing'),
       el('div', { class: 'small muted' },
         P.has_sizes
@@ -122,13 +123,14 @@ function buyPanel() {
         el('tbody', {}, P.tiers.map(t => el('tr', { 'data-min': t.min_qty },
           el('td', {}, tierLabel(t)),
           el('td', { class: 'mono' }, money(t.unit_price)),
-          el('td', { class: 'muted' }, tierGst(t, P) + '%')))))),
+          el('td', { class: 'muted' }, tierGst(t, P) + '%'))))))
+      : null,
 
-    el('div', { class: 'note' },
+    hasPrice(P) ? el('div', { class: 'note' },
       el('strong', {}, 'Minimum order quantity: ' + qty(P.moq)),
-      P.has_sizes ? ' across all sizes combined.' : '.'),
+      P.has_sizes ? ' across all sizes combined.' : '.') : null,
 
-    P.has_sizes ? el('div', {},
+    hasPrice(P) ? (P.has_sizes ? el('div', {},
       el('h3', {}, 'Quantity by size'),
       el('div', { class: 'size-grid' }, P.sizes.map(s =>
         el('div', { class: 'size-box', 'data-size': s },
@@ -142,7 +144,7 @@ function buyPanel() {
       el('input', {
         type: 'number', min: '0', step: '1', value: start['_'] || P.moq,
         'data-size-input': '', oninput: paint,
-      })),
+      }))) : null,
 
     el('div', { class: 'panel', style: 'padding:16px' },
       el('div', { class: 'row-between' },
@@ -156,7 +158,11 @@ function buyPanel() {
         el('strong', { id: 'sumVal', class: 'mono' }, '—')),
       el('div', { id: 'hint', class: 'small', style: 'margin-top:8px' })),
 
-    el('button', { class: 'btn btn-block', id: 'addBtn', onclick: addToCart }, 'Add to cart'));
+    hasPrice(P)
+      ? el('button', { class: 'btn btn-block', id: 'addBtn', onclick: addToCart }, 'Add to cart')
+      : el('a', { class: 'btn btn-block', href: 'mailto:?subject=' +
+            encodeURIComponent('Price request: ' + P.name + ' (' + P.sku + ')') },
+          'Request a price'));
 }
 
 function readQtys() {
@@ -169,6 +175,7 @@ function readQtys() {
 }
 
 function paint() {
+  if (!hasPrice(P)) return;          // no tier table or totals to paint
   const entries = readQtys();
   const total = entries.reduce((a, e) => a + e.qty, 0);
   const tier = pickTier(P.tiers, total);
@@ -214,6 +221,7 @@ function paint() {
 }
 
 function addToCart() {
+  if (!hasPrice(P)) return;          // belt and braces: the button is not rendered
   const entries = readQtys();
   const total = entries.reduce((a, e) => a + e.qty, 0);
   if (total === 0) return;

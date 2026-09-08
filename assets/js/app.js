@@ -514,6 +514,20 @@ function lowestPrice(p) {
   return Math.min(...(p.tiers || []).map(t => t.unit_price).concat(p.base_price || Infinity));
 }
 
+/* Some products carry no price in the catalogue — they are quoted per enquiry.
+   They are shown as "Request for price" and cannot be added to the cart: a
+   zero would otherwise flow into the tier table, the cart total and the order.
+   The Apps Script side refuses to price such a line as well, so neither half
+   can be talked into a free order. */
+function hasPrice(p) {
+  const lo = lowestPrice(p);
+  return isFinite(lo) && lo > 0;
+}
+/* User's call: where there is no price, show nothing at all rather than a
+   label. The product page still offers an enquiry button — a button is not a
+   price, and a page with neither price nor action is a dead end. */
+const PRICE_ON_REQUEST = '';
+
 /* ------------------------------------------------------------- filtering */
 
 /* One filter model shared by the category pages, the all-products page and
@@ -528,7 +542,11 @@ const Filters = {
 
   matches(p) {
     const s = this.state, price = lowestPrice(p);
-    if (price < s.min || price > s.max) return false;
+    /* Price-on-request products have no price to compare, so they are only
+       hidden when the shopper has actually narrowed the price range. */
+    const priced = hasPrice(p);
+    if (!priced && (s.min > 0 || s.max < Infinity)) return false;
+    if (priced && (price < s.min || price > s.max)) return false;
     if (p.moq > s.moq) return false;
     if (s.cat && p.category !== s.cat) return false;
     if (s.sub && p.subcategory !== s.sub) return false;
@@ -541,8 +559,12 @@ const Filters = {
   apply(products) {
     const s = this.state;
     const out = products.filter(p => this.matches(p));
-    if (s.sort === 'pl') out.sort((a, b) => lowestPrice(a) - lowestPrice(b));
-    else if (s.sort === 'ph') out.sort((a, b) => lowestPrice(b) - lowestPrice(a));
+    /* unpriced items sort last either way, rather than reading as free */
+    const key = p => (hasPrice(p) ? lowestPrice(p) : null);
+    if (s.sort === 'pl') out.sort((a, b) =>
+      (key(a) === null) - (key(b) === null) || key(a) - key(b));
+    else if (s.sort === 'ph') out.sort((a, b) =>
+      (key(a) === null) - (key(b) === null) || key(b) - key(a));
     else if (s.sort === 'az') out.sort((a, b) => a.name.localeCompare(b.name));
     else if (s.sort === 'moq') out.sort((a, b) => a.moq - b.moq);
     return out;
@@ -900,9 +922,15 @@ function productCard(p) {
       (p.colorway && p.colorway.siblings.length > 1)
         ? el('div', { class: 'tag' }, p.colorway.siblings.length + ' colours') : null,
       el('div', { class: 'card-moq' }, 'MOQ ' + qty(p.moq)),
-      el('div', { class: 'card-price' },
-        el('span', { class: 'from' }, 'from'),
-        money(lowest))));
+      hasPrice(p)
+        ? el('div', { class: 'card-price' },
+            el('span', { class: 'from' }, 'from'),
+            money(lowest))
+        /* Mirrors the priced markup exactly — the same "from" line plus a
+           value line, both blank — so an unpriced card reserves identical
+           height and the grid rows stay level. No magic pixel value to drift. */
+        : el('div', { class: 'card-price card-price-poa' },
+            el('span', { class: 'from' }, '\u00a0'), '\u00a0')));
 }
 
 /* Node test harness only. Ignored by the browser. */
