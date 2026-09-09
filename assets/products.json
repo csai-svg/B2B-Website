@@ -1,6 +1,6 @@
 {
  "generated_from": "admin console",
- "generated_at": "2026-09-08 13:31:30",
+ "generated_at": "2026-09-09 13:19:49",
  "pricing_status": "from the Sheet",
  "categories": [
   {
@@ -170,7 +170,7 @@
   },
   {
    "sku": "OW-NMDBLK",
-   "name": "Nomad Laptop Backpack for Laptops up to 15.6\" with Integrated Dual USB Type-C Fast-Charging Upto 35 Watts (Black)",
+   "name": "Nomad Laptop Backpack for Laptops up to 15.6\"",
    "url_key": "",
    "category": "Backpacks",
    "subcategory": "Backpacks",
@@ -200,7 +200,7 @@
   },
   {
    "sku": "MOKO-018",
-   "name": "Transit Backpack",
+   "name": "Mokobara Transit Backpack - 20L",
    "url_key": "",
    "category": "Backpacks",
    "subcategory": "Backpacks",
@@ -230,7 +230,7 @@
   },
   {
    "sku": "CSUN-0273",
-   "name": "travelXOXO Aksa Laptop Backpack",
+   "name": "travelXOXO Aksa Laptop Backpack - Black",
    "url_key": "",
    "category": "Backpacks",
    "subcategory": "Backpacks",
@@ -262,7 +262,7 @@
   },
   {
    "sku": "CSUN-1220",
-   "name": "travelXOXO Bounce Roll Top Backpack - Grey",
+   "name": "travelXOXO Bounce Roll Top Backpack",
    "url_key": "",
    "category": "Backpacks",
    "subcategory": "Backpacks",
@@ -352,7 +352,7 @@
   },
   {
    "sku": "CSUN-3348",
-   "name": "travelxoxo Transit Backpack",
+   "name": "travelXOXO Transit Backpack II - Black",
    "url_key": "",
    "category": "Backpacks",
    "subcategory": "Backpacks",
@@ -415,7 +415,7 @@
   },
   {
    "sku": "BOTALL-015",
-   "name": "BOT-ALL Beat Insulated Bottle With Bluetooth Speaker - Black",
+   "name": "Beat Bottle With Bluetooth Speaker",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -445,7 +445,7 @@
   },
   {
    "sku": "ADAL-048",
-   "name": "Bamboo Steel Bottle",
+   "name": "Bamboo Bottle I",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -477,7 +477,7 @@
   },
   {
    "sku": "UG-DB65",
-   "name": "Hydromonk Cork Ceramic Mug With Cork Base - Black",
+   "name": "Corky",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -509,7 +509,7 @@
   },
   {
    "sku": "UG 02",
-   "name": "Hydromonk Eco Cork - Wheat Fibre Eco Friendly Mug - Beige",
+   "name": "Eco Cork Wheat Fibre Eco Friendly Mug",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -541,7 +541,7 @@
   },
   {
    "sku": "CSUN-0226",
-   "name": "Hydromonk Plain Ceramic Mug - White",
+   "name": "Ceramic Mug - White",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -573,7 +573,7 @@
   },
   {
    "sku": "URBAN-296",
-   "name": "Hydromonk Smart Vacuum Flask - White",
+   "name": "Smart Flask",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -605,7 +605,7 @@
   },
   {
    "sku": "CSUN-0081",
-   "name": "Hydromonk Ultra Pre Hot & Cold Bottle - Matt II - Black",
+   "name": "HydroMonk Ultra Bottle II - Black",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -637,7 +637,7 @@
   },
   {
    "sku": "CSUN-0082",
-   "name": "Hydromonk Ultra Pre Hot & Cold Bottle - Matt II - White",
+   "name": "HydroMonk Ultra Bottle II - White",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -669,7 +669,7 @@
   },
   {
    "sku": "CSUN-0063",
-   "name": "Stainless Steel Travel Mug - TOBY - Black",
+   "name": "HydroMonk Toby Mug - Black",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -701,7 +701,7 @@
   },
   {
    "sku": "URBAN-156",
-   "name": "Urban Gear Sigma Stainless Steel Sports Bottle - Blue",
+   "name": "Urban Gear Sigma Sipper - Blue",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -733,7 +733,7 @@
   },
   {
    "sku": "URBAN-322",
-   "name": "Urban Gear iBamboo Bamboo Mug",
+   "name": "iBamboo - Green",
    "url_key": "",
    "category": "Drinkware",
    "subcategory": "Drinkware",
@@ -766,7 +766,7 @@
   },
   {
    "sku": "OW-GPOMNPKBLK",
-   "name": "Okami Omnipack Dawn-to-Dusk Duffle Bag | 35 litres Gym&Travel Bag with Detachable Strap | Weekender Travel Bag with Built-in Laptop and Tablet Compartment | Cabin Bag with Trolley Sleeve (Black)",
+   "name": "Okami Omnipack Duffle Bag",
    "url_key": "",
    "category": "Duffles",
    "subcategory": "Duffles",
@@ -796,7 +796,7 @@
   },
   {
    "sku": "CSUN-0265",
-   "name": "travelXOXO Adventure Duffle Bag",
+   "name": "travelXOXO Adventure Duffle Bag - Black",
    "url_key": "",
    "category": "Duffles",
    "subcategory": "Duffles",
@@ -828,7 +828,7 @@
   },
   {
    "sku": "CSUN-3668",
-   "name": "travelXOXO Base Camp Voyager Duffle Bag - 35  L - Black/Blue",
+   "name": "travelXOXO Base Camp Duffle Bag I",
    "url_key": "",
    "category": "Duffles",
    "subcategory": "Duffles",
@@ -858,7 +858,7 @@
   },
   {
    "sku": "Smoor Cookies",
-   "name": "Smoor Cookies",
+   "name": "Center Fill Coffee Cookies",
    "url_key": "",
    "category": "Food & Ediblles",
    "subcategory": "Food & Ediblles",
@@ -880,7 +880,7 @@
     "NA"
    ],
    "has_sizes": false,
-   "image": "https://lh3.googleusercontent.com/d/1VSCvmC8RvCcg2Z0ZklBxy8zRwBok5FaM=w1200",
+   "image": "",
    "weight": "",
    "active": true,
    "event_tags": [],
@@ -888,7 +888,7 @@
   },
   {
    "sku": "Smoor Strawberrry Nougat Bar Pack of 15 Bar Gift Pack (15 x 24 g)",
-   "name": "Smoor Strawberrry Nougat Bar Pack of 15 Bar Gift Pack (15 x 24 g)",
+   "name": "Smoor Strawberrry Nougat Bar Pack",
    "url_key": "",
    "category": "Food & Ediblles",
    "subcategory": "Food & Ediblles",
@@ -910,7 +910,7 @@
     "OS"
    ],
    "has_sizes": false,
-   "image": "https://lh3.googleusercontent.com/d/1iriSvfdOfPPz2W34IggcmPT3gXmZedAT=w1200",
+   "image": "",
    "weight": "",
    "active": true,
    "event_tags": [],
@@ -918,7 +918,7 @@
   },
   {
    "sku": "CSUN-3652",
-   "name": "SOIL Camp Formal Shirt",
+   "name": "SOIL Camp Shirt  - White",
    "url_key": "",
    "category": "Formal Shirts",
    "subcategory": "Formal Shirts",
@@ -1014,7 +1014,7 @@
   },
   {
    "sku": "6111990716",
-   "name": "Daily Objects Loop Qi2-Certified MagSafe-Compatible Aluminium Power Bank 5000 mAh - Black",
+   "name": "Daily Objects Loop Qi2 Magsafe",
    "url_key": "",
    "category": "Gadget & Tech",
    "subcategory": "Gadget & Tech",
@@ -1044,7 +1044,7 @@
   },
   {
    "sku": "JBL-051",
-   "name": "JBL\nTOUR ONE\nMK3 SMART TX",
+   "name": "JBL\r\nTOUR ONE\r\nMK3 SMART TX",
    "url_key": "",
    "category": "Gadget & Tech",
    "subcategory": "Gadget & Tech",
@@ -1074,7 +1074,7 @@
   },
   {
    "sku": "CSUN-0139",
-   "name": "Pop Socket Basic PopGrip - White",
+   "name": "Pop Socket - White",
    "url_key": "",
    "category": "Gadget & Tech",
    "subcategory": "Gadget & Tech",
@@ -1106,7 +1106,7 @@
   },
   {
    "sku": "CSUN-3478",
-   "name": "Beanie Cap",
+   "name": "OMG Rib Beanie - Ivory Beige",
    "url_key": "",
    "category": "Headwear",
    "subcategory": "Headwear",
@@ -1138,7 +1138,7 @@
   },
   {
    "sku": "CSUN-0698",
-   "name": "Beanie Cap",
+   "name": "OMG Rib Beanie - Black",
    "url_key": "",
    "category": "Headwear",
    "subcategory": "Headwear",
@@ -1170,7 +1170,7 @@
   },
   {
    "sku": "CSUN-0631",
-   "name": "OMG Twill Cap 5 Panel - Royal Blue",
+   "name": "OMG Classic Cap - Royal Blue",
    "url_key": "",
    "category": "Headwear",
    "subcategory": "Headwear",
@@ -1200,7 +1200,7 @@
   },
   {
    "sku": "CSUN-3629",
-   "name": "OMG Twill Cap 6 Panel",
+   "name": "OMG Supreme Cap - Red",
    "url_key": "",
    "category": "Headwear",
    "subcategory": "Headwear",
@@ -1230,7 +1230,7 @@
   },
   {
    "sku": "CSUN-3480",
-   "name": "OMG Twill Cap 6 Panel - Black",
+   "name": "OMG Supreme Cap - Black",
    "url_key": "",
    "category": "Headwear",
    "subcategory": "Headwear",
@@ -1260,7 +1260,7 @@
   },
   {
    "sku": "CSUN-3481",
-   "name": "OMG Twill Cap 6 Panel - Navy Blue",
+   "name": "OMG Supreme Cap - Navy Blue",
    "url_key": "",
    "category": "Headwear",
    "subcategory": "Headwear",
@@ -1292,7 +1292,7 @@
   },
   {
    "sku": "CSUN-1312",
-   "name": "3 in 1 Scented Mini Jar Candles - Hridaya",
+   "name": "4 in 1 Scented Mini Jar Candles - Hridaya",
    "url_key": "",
    "category": "Home Essentials",
    "subcategory": "Home Essentials",
@@ -1361,7 +1361,7 @@
   },
   {
    "sku": "CSUN-0350",
-   "name": "MDF Wooden Jigsaw Puzzle",
+   "name": "SOIL Jigsaw Puzzle",
    "url_key": "",
    "category": "Home Essentials",
    "subcategory": "Home Essentials",
@@ -1483,7 +1483,7 @@
   },
   {
    "sku": "CSUN-3671",
-   "name": "SOIL Eco Coaster",
+   "name": "SOIL Set of 4 MDF Wooden Coasters",
    "url_key": "",
    "category": "Home Essentials",
    "subcategory": "Home Essentials",
@@ -1513,7 +1513,7 @@
   },
   {
    "sku": "CSUN-0353",
-   "name": "SOIL Photo Frame Click Tilt",
+   "name": "SOIL Everwood Frame",
    "url_key": "",
    "category": "Home Essentials",
    "subcategory": "Home Essentials",
@@ -1545,7 +1545,7 @@
   },
   {
    "sku": "CSUN-0307",
-   "name": "Supersoft Fleece Blanket - White",
+   "name": "travelXOXO Coral Fleece Blanket",
    "url_key": "",
    "category": "Home Essentials",
    "subcategory": "Home Essentials",
@@ -1577,7 +1577,7 @@
   },
   {
    "sku": "COLU-001",
-   "name": "Columbia Men Black Fast Trek Overlay Fleece Jacket",
+   "name": "Columbia Men Black Fast Trek Overlay Fleece Jacket - Black",
    "url_key": "",
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
@@ -1611,7 +1611,7 @@
   },
   {
    "sku": "CSUN-3390",
-   "name": "ET-TU Primelayer zip up jacket Men's",
+   "name": "ET-TU Men's Sweater Fleece Full-Zip Jacket - Grey",
    "url_key": "",
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
@@ -1647,7 +1647,7 @@
   },
   {
    "sku": "CSUN-3440",
-   "name": "ET-TU Unisex Recycled No Zip Hooodie - Black",
+   "name": "ET-TU Hoodie Without Zip - Bone",
    "url_key": "",
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
@@ -1685,7 +1685,7 @@
   },
   {
    "sku": "CSUN-1538",
-   "name": "ET-TU Unisex Recycled No Zip Hooodie - Black",
+   "name": "ET-TU Classic No Zip Hoodie - Blue",
    "url_key": "",
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
@@ -1757,7 +1757,7 @@
   },
   {
    "sku": "MONT-039",
-   "name": "Monet Carlo Bonded Fleece Jacket",
+   "name": "Monte Carlo Bonded Fleece Jacket - Black",
    "url_key": "",
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
@@ -1793,7 +1793,7 @@
   },
   {
    "sku": "CSUN-0356",
-   "name": "OMG Unisex Full Zipper Hoodie - Black",
+   "name": "OMG Full Zipper Hoodie - Black",
    "url_key": "",
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
@@ -1831,7 +1831,7 @@
   },
   {
    "sku": "CSUN-0357",
-   "name": "OMG Unisex Full Zipper Hoodie - Black White Grey",
+   "name": "OMG Full Zipper Hoodie - Black/Grey",
    "url_key": "",
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
@@ -1867,7 +1867,7 @@
   },
   {
    "sku": "RARE-071",
-   "name": "Rare Rabbit Unisex Bonded Fleece Jacket",
+   "name": "Rare Rabbit Unisex Bonded Fleece Jacket - Black",
    "url_key": "",
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
@@ -1910,7 +1910,7 @@
   },
   {
    "sku": "CSUN-1429",
-   "name": "Stormtech Men's Full Sleeve Jacket- Black",
+   "name": "Stormtech Full Sleeve Jacket - Black",
    "url_key": "",
    "category": "Jackets & Hoodies",
    "subcategory": "Jackets & Hoodies",
@@ -1946,7 +1946,7 @@
   },
   {
    "sku": "CSUN-0901",
-   "name": "SOIL Kraft Paper 2 fold Card",
+   "name": "SOIL Digital 2 Fold Card",
    "url_key": "",
    "category": "Kit Busters",
    "subcategory": "Kit Busters",
@@ -2011,7 +2011,7 @@
   },
   {
    "sku": "CSUN-0315",
-   "name": "SOIL Vinyl Sticker",
+   "name": "SOIL Vinyl Sticker - Custom",
    "url_key": "",
    "category": "Kit Busters",
    "subcategory": "Kit Busters",
@@ -2043,7 +2043,7 @@
   },
   {
    "sku": "CSUN-0123",
-   "name": "SOIL ECO Cover Journal",
+   "name": "SOIL Classic Journal",
    "url_key": "",
    "category": "Notebooks",
    "subcategory": "Notebooks",
@@ -2075,7 +2075,7 @@
   },
   {
    "sku": "CSUN-1556",
-   "name": "SOIL Eco Cashier Notebook - Kraft",
+   "name": "SOIL Eco Kraft Notebook",
    "url_key": "",
    "category": "Notebooks",
    "subcategory": "Notebooks",
@@ -2108,7 +2108,7 @@
   },
   {
    "sku": "CSUN-0702",
-   "name": "SOIL Eco Hard Cover Spiral Notebook - I - Black",
+   "name": "SOIL Spiral Notebook I - Black",
    "url_key": "",
    "category": "Notebooks",
    "subcategory": "Notebooks",
@@ -2140,7 +2140,7 @@
   },
   {
    "sku": "CSUN-1311",
-   "name": "SOIL Eco Single Meeting Notebook - Blue",
+   "name": "SOIL Single Meeting Notebook - Blue",
    "url_key": "",
    "category": "Notebooks",
    "subcategory": "Notebooks",
@@ -2172,7 +2172,7 @@
   },
   {
    "sku": "CSUN-0277",
-   "name": "SOIL Softcover Journal - Black",
+   "name": "SOIL Classic Journal - Black",
    "url_key": "",
    "category": "Notebooks",
    "subcategory": "Notebooks",
@@ -2204,7 +2204,7 @@
   },
   {
    "sku": "CSUN-3414",
-   "name": "Soil Soft Cover Journal",
+   "name": "Soil Soft Cover Journal - Black",
    "url_key": "",
    "category": "Notebooks",
    "subcategory": "Notebooks",
@@ -2236,7 +2236,7 @@
   },
   {
    "sku": "URBAN-210",
-   "name": "Urban Gear Capri R-Pet Premium Notebook - Grey",
+   "name": "Capri R-Pet Premium Notebooks",
    "url_key": "",
    "category": "Notebooks",
    "subcategory": "Notebooks",
@@ -2268,7 +2268,7 @@
   },
   {
    "sku": "CSUN-3512",
-   "name": "Certificate frame",
+   "name": "Wooden Photo Frame",
    "url_key": "",
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
@@ -2332,7 +2332,7 @@
   },
   {
    "sku": "CSUN-3527",
-   "name": "Custom Full Color Lanyard",
+   "name": "Custom Full Color Lanyard  - Navy Blue",
    "url_key": "",
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
@@ -2396,7 +2396,7 @@
   },
   {
    "sku": "CSUN-3417",
-   "name": "Custom Full Color Lanyard - Black",
+   "name": "Custom Full Color Lanyard - White",
    "url_key": "",
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
@@ -2428,7 +2428,7 @@
   },
   {
    "sku": "CSUN-3584",
-   "name": "Custom Full Color Lanyard - Black",
+   "name": "Custom Full Color Lanyard - Yellow",
    "url_key": "",
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
@@ -2490,7 +2490,7 @@
   },
   {
    "sku": "CSUN-0905",
-   "name": "SOIL Canvas Pencil Case",
+   "name": "SOIL Scribbles Pencil Case",
    "url_key": "",
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
@@ -2520,7 +2520,7 @@
   },
   {
    "sku": "CSUN-0345",
-   "name": "SOIL Wooden Desk Caddy",
+   "name": "SOIL Desk Caddy",
    "url_key": "",
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
@@ -2550,7 +2550,7 @@
   },
   {
    "sku": "CSUN-0344",
-   "name": "SOIL Wooden Phone Stand",
+   "name": "SOIL Phone Stand - Beige",
    "url_key": "",
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
@@ -2583,7 +2583,7 @@
   },
   {
    "sku": "CSUN-1610",
-   "name": "SOIL Wooden Wire Manager",
+   "name": "SOIL Wire Manager",
    "url_key": "",
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
@@ -2613,7 +2613,7 @@
   },
   {
    "sku": "CSUN-3568",
-   "name": "Silicone Mouse Pad - Rectangular",
+   "name": "Silicone Mouse Pad - Rectangular - Black",
    "url_key": "",
    "category": "Office Essentials",
    "subcategory": "Office Essentials",
@@ -2707,7 +2707,7 @@
   },
   {
    "sku": "ZKMPL-001",
-   "name": "Agent Socks",
+   "name": "Socks",
    "url_key": "",
    "category": "Outerwear",
    "subcategory": "Outerwear",
@@ -2771,7 +2771,7 @@
   },
   {
    "sku": "Infant Bodysuit - Set of 1",
-   "name": "Infant Bodysuit - Set of 1",
+   "name": "OMG Onesie - White",
    "url_key": "",
    "category": "Outerwear",
    "subcategory": "Outerwear",
@@ -2803,7 +2803,7 @@
   },
   {
    "sku": "CSUN-1485",
-   "name": "Crinkle Paper - Brown",
+   "name": "Crinkle Paper",
    "url_key": "",
    "category": "Packaging & Others",
    "subcategory": "Packaging & Others",
@@ -2835,7 +2835,7 @@
   },
   {
    "sku": "CSUN-1490",
-   "name": "Crinkle Paper - Full White",
+   "name": "Crinkle Paper - White",
    "url_key": "",
    "category": "Packaging & Others",
    "subcategory": "Packaging & Others",
@@ -2896,7 +2896,7 @@
   },
   {
    "sku": "CSUN-1484",
-   "name": "Crinkle Paper - Light Blue",
+   "name": "Crinkle Paper - Blue",
    "url_key": "",
    "category": "Packaging & Others",
    "subcategory": "Packaging & Others",
@@ -2960,7 +2960,7 @@
   },
   {
    "sku": "CSUN-1482",
-   "name": "Crinkle paper- Red",
+   "name": "Crinkle Paper - Red",
    "url_key": "",
    "category": "Packaging & Others",
    "subcategory": "Packaging & Others",
@@ -2992,7 +2992,7 @@
   },
   {
    "sku": "CSUN-3428",
-   "name": "Magnetic Flip Top Gift Box",
+   "name": "Flip Top Gift Box",
    "url_key": "",
    "category": "Packaging & Others",
    "subcategory": "Packaging & Others",
@@ -3022,7 +3022,7 @@
   },
   {
    "sku": "CSUN-0064",
-   "name": "Elegant Bamboo Pen",
+   "name": "Bamboo Pen I",
    "url_key": "",
    "category": "Pens",
    "subcategory": "Pens",
@@ -3054,7 +3054,7 @@
   },
   {
    "sku": "ADAL-045",
-   "name": "Ivory Click Shinning Ballpoint Pen",
+   "name": "Ivory Pen - Red",
    "url_key": "",
    "category": "Pens",
    "subcategory": "Pens",
@@ -3086,7 +3086,7 @@
   },
   {
    "sku": "ADAL-012",
-   "name": "Ivory Pen",
+   "name": "Ivory Pen - Green",
    "url_key": "",
    "category": "Pens",
    "subcategory": "Pens",
@@ -3118,7 +3118,7 @@
   },
   {
    "sku": "CSUN-0941",
-   "name": "KRETA Metal Ball Pen - Black",
+   "name": "Obsidian Clicker Pen",
    "url_key": "",
    "category": "Pens",
    "subcategory": "Pens",
@@ -3178,7 +3178,7 @@
   },
   {
    "sku": "CSUN-0124",
-   "name": "SOIL Recycled Kraft Pens - Green",
+   "name": "Kraft Pen - Green",
    "url_key": "",
    "category": "Pens",
    "subcategory": "Pens",
@@ -3211,7 +3211,7 @@
   },
   {
    "sku": "G2932251-5",
-   "name": "Sheaffer 100 with A5 Notebook Gift Set",
+   "name": "Sheaffer 100 with A5 Notebook Gift Set 3",
    "url_key": "",
    "category": "Pens",
    "subcategory": "Pens",
@@ -3241,7 +3241,7 @@
   },
   {
    "sku": "CSUN-0285",
-   "name": "Super Hit Matt Senator Pen - White",
+   "name": "Senator Pen - White",
    "url_key": "",
    "category": "Pens",
    "subcategory": "Pens",
@@ -3273,7 +3273,7 @@
   },
   {
    "sku": "CSUN-3494",
-   "name": "Tesla Classic Ball Pen",
+   "name": "Tesla Classic Ball Pen - Black",
    "url_key": "",
    "category": "Pens",
    "subcategory": "Pens",
@@ -3303,7 +3303,7 @@
   },
   {
    "sku": "CSUN-3382",
-   "name": "ET-TU Carara Polo T-Shirt",
+   "name": "ET-TU Carara Polo T-Shirt - Navy Blue",
    "url_key": "",
    "category": "Polos",
    "subcategory": "Polos",
@@ -3339,7 +3339,7 @@
   },
   {
    "sku": "CSUN-0002",
-   "name": "ET-TU Unisex Technical Performance Polo T-Shirt - Rama Blue",
+   "name": "ET-TU Technical Performance Polo T-Shirt - Rama Blue",
    "url_key": "",
    "category": "Polos",
    "subcategory": "Polos",
@@ -3411,7 +3411,7 @@
   },
   {
    "sku": "CSUN-1015",
-   "name": "OMG Endurance Men's In & Out Polo T-Shirt - Navy Blue",
+   "name": "OMG In & Out Polo T-Shirt - Navy Blue",
    "url_key": "",
    "category": "Polos",
    "subcategory": "Polos",
@@ -3447,7 +3447,7 @@
   },
   {
    "sku": "SKEC-001",
-   "name": "Skechers Polo T-Shirt",
+   "name": "Skechers Polo T-Shirt - Navy Blue",
    "url_key": "",
    "category": "Polos",
    "subcategory": "Polos",
@@ -3483,7 +3483,7 @@
   },
   {
    "sku": "760038A",
-   "name": "GILDAN Softstyle Midweight Adult T-Shirt - Sand",
+   "name": "GILDAN Softstyle Midweight Adult T-Shirt  - Sand",
    "url_key": "",
    "category": "T-Shirts",
    "subcategory": "T-Shirts",
@@ -3543,7 +3543,7 @@
   },
   {
    "sku": "CSUN-1572",
-   "name": "OMG Endurance Men's Round Neck T-Shirt - Light Blue",
+   "name": "OMG Essentials Endurance Round Neck T-Shirt - Light Blue",
    "url_key": "",
    "category": "T-Shirts",
    "subcategory": "T-Shirts",
@@ -3581,7 +3581,7 @@
   },
   {
    "sku": "CSUN-0090",
-   "name": "OMG Endurance Roundneck T-Shirt - Royal Blue",
+   "name": "OMG Essentials Endurance Round Neck T-Shirt - Royal Blue",
    "url_key": "",
    "category": "T-Shirts",
    "subcategory": "T-Shirts",
@@ -3619,7 +3619,7 @@
   },
   {
    "sku": "CSUN-1527",
-   "name": "OMG Endurance Unisex Round Neck T-Shirt - Black Melange",
+   "name": "OMG Endurance Heathered Round Neck T-Shirt I - Black  Heather",
    "url_key": "",
    "category": "T-Shirts",
    "subcategory": "T-Shirts",
@@ -3657,7 +3657,7 @@
   },
   {
    "sku": "CSUN-1290",
-   "name": "OMG Endurance Unisex Round Neck T-Shirt - Navy Blue",
+   "name": "OMG Basics Endurance Round Neck T-Shirt II - Navy Blue",
    "url_key": "",
    "category": "T-Shirts",
    "subcategory": "T-Shirts",
@@ -3693,7 +3693,7 @@
   },
   {
    "sku": "CSUN-0978",
-   "name": "OMG Endurance Unisex Roundneck T-Shirt - Black Heather",
+   "name": "OMG Endurance Heathered Round Neck T-Shirt II - Black Heather",
    "url_key": "",
    "category": "T-Shirts",
    "subcategory": "T-Shirts",
@@ -3729,7 +3729,7 @@
   },
   {
    "sku": "CSUN-1580",
-   "name": "Neoprene Tote Bag - Black",
+   "name": "travelXOXO Neoprene Everyday Tote Bag",
    "url_key": "",
    "category": "Totes & Slings",
    "subcategory": "Totes & Slings",
@@ -3759,7 +3759,7 @@
   },
   {
    "sku": "OW-ZPBLU",
-   "name": "Okami ZenPack LITE Laptop Messenger Bag X Briefcase with USB Fast-Charging for Laptops up to 15.6 inches (Kyoto Black)",
+   "name": "Okami ZenPack LITE",
    "url_key": "",
    "category": "Totes & Slings",
    "subcategory": "Totes & Slings",
@@ -3789,7 +3789,7 @@
   },
   {
    "sku": "CSUN-1133",
-   "name": "SOIL Canvas Tote Bag - Natural",
+   "name": "SOIL Classic Canvas Tote Bag",
    "url_key": "",
    "category": "Totes & Slings",
    "subcategory": "Totes & Slings",
@@ -3946,7 +3946,7 @@
   },
   {
    "sku": "CSUN-0908",
-   "name": "SOIL Canvas Single Zip Pouch",
+   "name": "SOIL Loom Canvas Pouch",
    "url_key": "",
    "category": "Travel Extreme",
    "subcategory": "Travel Extreme",
@@ -3978,7 +3978,7 @@
   },
   {
    "sku": "SWISS-037",
-   "name": "Swiss Military Starkey Hard Top Trolley Luggage",
+   "name": "Swiss Military Starkey Trolley",
    "url_key": "",
    "category": "Travel Extreme",
    "subcategory": "Travel Extreme",
@@ -4008,7 +4008,7 @@
   },
   {
    "sku": "CSUN-0177",
-   "name": "travelXOXO Ladies Hanging Cosmetic Bag",
+   "name": "travelXOXO Carry On Sling",
    "url_key": "",
    "category": "Travel Extreme",
    "subcategory": "Travel Extreme",
@@ -4040,7 +4040,7 @@
   },
   {
    "sku": "CSUN-0379",
-   "name": "travelXOXO X-POD Sling Pack",
+   "name": "travelXOXO Urban Fanny Pack",
    "url_key": "",
    "category": "Travel Extreme",
    "subcategory": "Travel Extreme",
