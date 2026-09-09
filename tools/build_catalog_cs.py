@@ -108,7 +108,7 @@ def main():
 
     for key, group in groups.items():
         r0 = group[0]
-        name = clean(r0.get("CS Catalog Final Product Name") or r0.get("Name", ""))
+        name = clean(r0.get("Name") or r0.get("CS Catalog Final Product Name", ""))
         if not name:
             continue
 
