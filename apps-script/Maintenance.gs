@@ -582,3 +582,155 @@ function exportCatalogueToDrive() {
   Logger.log('exported to Drive folder ' + folder.getName() + ':\n  ' + out.join('\n  '));
   return out;
 }
+
+
+/**
+ * applyShortNames — make column A ("Name") of the Event Based Catalog the
+ * product name the storefront shows, using "CS Catalog Final Product Name"
+ * only as a fallback where column A is blank. This is the inverse of the old
+ * preference, which took the long marketing string first (one was 194 chars).
+ *
+ *   applyShortNames_dryRun()   <- read the plan and the collisions, writes nothing
+ *   applyShortNames()          <- then apply
+ *
+ * WHAT IT TOUCHES
+ * Products.name only. Prices, SKUs, tiers, related links and orders all key on
+ * SKU and are untouched. Re-run the publish step afterwards to regenerate
+ * assets/products.json.
+ *
+ * COLOURWAYS: grouped colourway listings rebuild their card label client-side
+ * from assets/colorways.json, so for those SKUs this changes the JSON name but
+ * the grouped card keeps its colorways.json label. Everything else shows the
+ * new name directly.
+ */
+var NAME_HEADER_PRIMARY  = 'Name';                          // column A, the short name
+var NAME_HEADER_FALLBACK = 'CS Catalog Final Product Name'; // long marketing string
+
+function applyShortNames_dryRun() { return applyShortNames_(true); }
+function applyShortNames()        { return applyShortNames_(false); }
+
+
+/** Read the source catalogue into { bySku, byName } -> chosen display name. */
+function readShortNames_() {
+  var id = prop('SOURCE_SHEET_ID', SOURCE_SHEET_ID_DEFAULT);
+  var ss;
+  try {
+    ss = SpreadsheetApp.openById(id);
+  } catch (e) {
+    throw new Error('Cannot open the source catalogue (' + id + '). Make sure the ' +
+                    'account running this script can at least view it.\n' + e.message);
+  }
+  var gid = Number(prop('SOURCE_SHEET_GID', String(SOURCE_SHEET_GID_DEFAULT)));
+  var sh = null, tabs = [];
+  ss.getSheets().forEach(function (s) {
+    tabs.push(s.getName() + ' (gid ' + s.getSheetId() + ')');
+    if (s.getSheetId() === gid) sh = s;
+  });
+  if (!sh) {
+    throw new Error('No tab with gid ' + gid + ' in "' + ss.getName() + '".\n' +
+                    'Tabs present: ' + tabs.join(', '));
+  }
+  Logger.log('reading tab "' + sh.getName() + '" (gid ' + sh.getSheetId() + ') of "' + ss.getName() + '"');
+  var values = sh.getDataRange().getValues();
+  if (values.length < 2) throw new Error('Source sheet "' + sh.getName() + '" is empty.');
+
+  var head = values[0];
+  var nameACol = colOf_(head, NAME_HEADER_PRIMARY, 'source catalogue') - 1;
+  var fbCol = -1;
+  try { fbCol = colOf_(head, NAME_HEADER_FALLBACK, 'source catalogue') - 1; } catch (e) {}
+
+  var skuCol = -1;
+  ['Final SKU Code', 'SKU'].forEach(function (n) {
+    if (skuCol >= 0) return;
+    try { skuCol = colOf_(head, n, 'source catalogue') - 1; } catch (e) {}
+  });
+  if (skuCol < 0) {
+    throw new Error('No "Final SKU Code" or "SKU" column in the source catalogue.\n' +
+                    'Headers: ' + head.join(', '));
+  }
+
+  var bySku = {}, byName = {}, conflicts = [], seen = {}, fellBack = 0, blanks = 0;
+  for (var i = 1; i < values.length; i++) {
+    var raw = String(values[i][skuCol] || '').trim();
+    var a  = String(values[i][nameACol] || '').trim();
+    var fb = fbCol >= 0 ? String(values[i][fbCol] || '').trim() : '';
+    var chosen = a || fb;                 // column A wins; Final Product Name fills the gap
+    if (!chosen) { blanks++; continue; }
+    if (!a && fb) fellBack++;
+
+    if (raw && !isJunkSku_(raw)) {
+      var keys = raw === styleKey_(raw) ? [raw] : [raw, styleKey_(raw)];
+      keys.forEach(function (k) {
+        if (bySku[k] === undefined) bySku[k] = chosen;
+        else if (bySku[k] !== chosen && seen[k] === undefined) {
+          seen[k] = 1;
+          conflicts.push(k + ': keeping "' + bySku[k] + '", also saw "' + chosen + '"');
+        }
+      });
+    }
+    // Match by the CURRENT stored name (the Final Product Name) as well, for
+    // rows whose SKU cell holds a placeholder or a product name.
+    if (fb) { var nk = norm_(fb); if (nk && byName[nk] === undefined) byName[nk] = chosen; }
+  }
+  Logger.log('source catalogue: ' + (values.length - 1) + ' rows, ' +
+             Object.keys(bySku).length + ' name keys, ' + fellBack +
+             ' row(s) fell back to the Final Product Name, ' + blanks + ' row(s) with no name');
+  if (conflicts.length) {
+    Logger.log('\nSAME SKU, DIFFERENT NAME (first wins - check these):\n  ' +
+               conflicts.slice(0, 20).join('\n  '));
+  }
+  return { bySku: bySku, byName: byName };
+}
+
+
+function applyShortNames_(dryRun) {
+  var src = readShortNames_();
+  var products = readTab(SHEETS.PRODUCTS);
+  var psh = sheet(SHEETS.PRODUCTS);
+  var pHead = psh.getRange(1, 1, 1, psh.getLastColumn()).getValues()[0];
+  var nameCol = colOf_(pHead, 'name', 'Products');
+
+  var plan = [], same = 0, unmatched = [], finalName = {};
+  products.forEach(function (p) {
+    var sku = String(p.sku).trim();
+    var nm;
+    if (!isJunkSku_(sku)) {
+      nm = src.bySku[sku];
+      if (nm === undefined) nm = src.bySku[styleKey_(sku)];
+    }
+    if (nm === undefined) nm = src.byName[norm_(p.name)];
+    if (nm === undefined) { unmatched.push(sku + '  (' + p.name + ')'); finalName[sku] = String(p.name); return; }
+    finalName[sku] = nm;
+    if (String(p.name) === nm) { same++; return; }
+    plan.push({ row: p._row, sku: sku, from: String(p.name), to: nm });
+  });
+
+  // Flag any name that would end up shared by more than one product.
+  var byNew = {};
+  Object.keys(finalName).forEach(function (sku) {
+    var nm = finalName[sku];
+    (byNew[nm] = byNew[nm] || []).push(sku);
+  });
+  var collisions = Object.keys(byNew).filter(function (k) { return byNew[k].length > 1; });
+
+  Logger.log('\n' + (dryRun ? 'DRY RUN - nothing written' : 'APPLYING') +
+             '\n  ' + plan.length + ' name(s) to change, ' + same + ' already correct, ' +
+             unmatched.length + ' not found in the catalogue');
+  plan.slice(0, 80).forEach(function (c) {
+    Logger.log('  ' + c.sku + '  "' + c.from.slice(0, 44) + '"  ->  "' + c.to + '"');
+  });
+  if (plan.length > 80) Logger.log('  ... and ' + (plan.length - 80) + ' more');
+  if (collisions.length) {
+    Logger.log('\nDUPLICATE NAMES - shared by >1 product after this change (add a distinguishing word):\n  ' +
+               collisions.slice(0, 40).map(function (k) { return '"' + k + '"  <- ' + byNew[k].join(', '); }).join('\n  '));
+  }
+  if (unmatched.length) {
+    Logger.log('\nNO NAME FOUND - these keep their current name:\n  ' + unmatched.join('\n  '));
+  }
+  if (dryRun) return plan.length + ' would change, ' + collisions.length + ' duplicate name(s), ' + unmatched.length + ' unmatched';
+  if (!plan.length) { Logger.log('\nNothing to do.'); return 'clean'; }
+
+  plan.forEach(function (c) { psh.getRange(c.row, nameCol).setValue(c.to); });
+  Logger.log('\nDone. Re-run the publish step to regenerate assets/products.json.');
+  return plan.length + ' renamed, ' + collisions.length + ' duplicate name(s), ' + unmatched.length + ' unmatched';
+}
